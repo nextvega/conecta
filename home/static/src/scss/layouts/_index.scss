@@ -1,0 +1,186 @@
+.header__principal{
+    background-color: $white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 105;
+    border-bottom: 1px solid rgb(140 140 140 / .2);
+    min-height: 5.27rem;
+    max-height: 5.27rem;
+    .header__principal__content{
+        min-height: 6.3rem;
+        max-height: 6.3rem;
+    }
+}
+
+.header__principal__grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 0.5rem;
+    position: relative;
+    .header__principal__grid__left{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0.4rem;
+        align-items: center;
+        position: relative;
+    }
+
+    .header__principal__grid__right{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1.1rem;
+        .header__principal__right__nav{
+            display: flex;
+            gap: 2rem;
+            margin-left: 7.1rem;
+        }
+        .header__principal__right__nav__business{
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
+
+.header__principal__left__home{
+    margin-left: 0.4rem;
+    .header__principal__left__home-link svg{
+        fill: $blue;
+        height: 4.1rem;
+        width: 4.1rem;
+    }
+    .header__principal__left__home-link img{
+        height: 3.4rem;
+        width: 3.4rem;
+        display: block;
+        border-radius: 0.5rem;
+    }
+}
+
+.header__principal__left__search{
+    position: absolute;
+    left: 45px;
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1.7rem;
+    background-color: $skyblue;
+    width: 28.1rem;
+    .bi::before{  
+        font-size: 1.35rem;
+        vertical-align: baseline !important;
+        color: $textnav;
+    }
+    .header__principal__left__search-entry{
+        border: none;
+        background-color: transparent;
+        font-size: 1.4rem;
+        padding: 0;
+        margin-top: -0.2rem;
+        font-weight: 400;
+        outline: none;
+        &::-webkit-search-cancel-button{
+            -webkit-appearance: none;
+        }
+    }
+}
+
+.header__principal__right__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .header__principal__right__nav__item{
+        .header__principal__right__nav__item__principal{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 6rem;
+            .header__principal__right__nav__item-link{
+                font-size: 1.2rem;
+                color: $textnav;
+                font-weight: 400;
+                margin-top: -0.1rem;
+                .bi::before{
+                    vertical-align: -0.2rem;
+                }
+            }
+            .header__principal__right__nav__item-img{
+                display: block;
+                img{
+                    border-radius: 100%;
+                }
+            }
+    
+            svg{
+                color: $textnav;
+                margin-top: 0.1rem;
+            }
+        }
+    }
+
+}
+
+.header__principal__right__nav__business{
+    padding-left: 0.7rem;
+    &::after{
+        position: absolute;
+        content: '';
+        top: -7px;
+        left: 90.3rem;
+        display: block;
+        border-left: 1px solid $border;
+        height: 5.4rem;
+        width: 2rem;
+    }
+    .header__principal__right__nav__business__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 10rem;
+        min-width: 10rem;
+        .header__principal__right__nav__business__item-link{
+            font-size: 1.2rem;
+            color: $textnav;
+            font-weight: 400;
+        }
+        svg{
+            color: $textnav;
+        }
+
+        .header__principal__right__nav__item__principal{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 10rem;
+            min-width: 10rem;
+            .header__principal__right__nav__business__item-link{
+                font-size: 1.2rem;
+                color: $textnav;
+                font-weight: 400;
+            }
+            svg{
+                color: $textnav;
+            }
+        }
+    }
+    .header__principal__right__nav__business__item-premium {
+        text-align: center;
+        text-decoration: underline;
+        .header__principal__right__nav__business__item-link{
+            color: $amber;
+        }
+
+    }
+}
+
+.main__principal{
+    padding-top: 7.5rem;
+}

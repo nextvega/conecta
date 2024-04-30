@@ -1,0 +1,9 @@
+@import 'base/variables.scss';
+@import 'base/normalize.scss';
+@import 'base/mixins.scss';
+@import 'base/global.scss';
+
+// Styles Sheet's
+@import 'layouts/index';
+@import 'apps/feed.scss';
+@import 'apps/user.scss';

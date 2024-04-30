@@ -1,0 +1,539 @@
+{% extends 'layouts/index.html' %}
+{% load static %}
+
+
+{% block title %} {{title}} {% endblock %}
+
+
+
+{% block content %}
+    <article class="feed__principal__grid">
+
+        <aside class="feed__section__left">
+            <div class="feed__section__left__profile">
+                <section class="feed__section__left__profile__top">
+                    <div class="feed__section__left__profile__top-background"></div>
+                    <a href="{% url 'user' %}" class="feed__section__left__profile__top__resume">
+                        <picture class="feed__section__left__profile__top__resume-img">
+                            <img src="https://media.licdn.com/dms/image/D4E35AQEE-Abr3TBKcg/profile-framedphoto-shrink_100_100/0/1696222866248?e=1714510800&amp;v=beta&amp;t=VpydwnsgOLDSsLDIirqB9N409V0z429YWHcJitcRQ88" loading="lazy" height="64" alt="Foto de Ricardo Martinez Vega" id="ember318" >
+                        </picture>
+                        <p class="feed__section__left__profile__top__resume-name">Ricardo Martinez Vega</p>
+                    </a>
+                    <p class="feed__section__left__profile__top-subtitle">Software Developer | Experto En JavaScript, Python, PHP, PL/SQL, Oracle</p>
+                </section>
+
+                <section class="feed__section__left__profile__middle">
+                    <ul class="feed__section__left__profile__middle__list">
+                        <li class="feed__section__left__profile__middle__list__item">
+                            <a class="feed__section__left__profile__middle__list__item__link" href="">
+                                <span class="feed__section__left__profile__middle__list__item__link-views">Visualizaciones del perfil</span>
+                                <strong class="feed__section__left__profile__middle__list__item__link-numviews">21</strong>
+                            </a>
+                        </li>
+
+                        <li class="feed__section__left__profile__middle__list__item">
+                            <a class="feed__section__left__profile__middle__list__item__link" href="">
+                                <span class="feed__section__left__profile__middle__list__item__link-views">Impresiones de la publicación</span>
+                                <strong class="feed__section__left__profile__middle__list__item__link-numviews">97</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="feed__section__left__profile__bottom">
+                    <a href="#" class="feed__section__left__profile__bottom__link">
+                        <h3 class="feed__section__left__profile__bottom__link-title">
+                            Búsqueda de empleo más eficaz con Premium
+                        </h3>
+                        <span class="feed__section__left__profile__bottom__link__premium">
+                            <i class="bi bi-hexagon-fill"></i>
+                            <p class="feed__section__left__profile__bottom__link__premium-text">Probar por 0 USD</p>
+                        </span>
+                    </a>
+                </section>
+
+                <section class="feed__section__left__profile__bottom">
+                    <a href="#" class="feed__section__left__profile__bottom__link">
+                        <span class="feed__section__left__profile__bottom__link__premium">
+                            <i class="bi bi-bookmark-fill"></i>
+                            <p class="feed__section__left__profile__bottom__link__premium-text">Mis cosas</p>
+                        </span>
+                    </a>
+                </section>
+            </div>
+
+            <div class="feed__section__left__profile__more">
+                <section class="feed__section__left__profile__more__flex">
+                    <ul class="feed__section__left__profile__more__list">
+                        <li class="feed__section__left__profile__more__list__item">
+                            <a class="feed__section__left__profile__more__list__item-link" href="#">Grupos</a>
+                        </li>
+
+                        <li class="feed__section__left__profile__more__list__item">
+                            <a class="feed__section__left__profile__more__list__item-link" href="#">Eventos</a>
+                            <i class="bi bi-plus-lg"></i>
+                        </li>
+
+                        <li class="feed__section__left__profile__more__list__item">
+                            <a class="feed__section__left__profile__more__list__item-link" href="#">Hashtags seguidos</a>
+                        </li>
+                    </ul>
+
+                    <div class="feed__section__left__profile__more__link">
+                        <a href="#">Ver más</a>
+                    </div>
+                </section>
+            </div>
+        </aside>
+
+        <section class="feed__section__central">
+            <div class="feed__section__central__createpost">
+                <section class="feed__section__central__createpost__top">
+
+                    <picture class="feed__section__central__createpost__top__picture">
+                        <img class="feed__section__central__createpost__top__picture-img" src="https://media.licdn.com/dms/image/D4E35AQEE-Abr3TBKcg/profile-framedphoto-shrink_100_100/0/1696222866248?e=1714510800&amp;v=beta&amp;t=VpydwnsgOLDSsLDIirqB9N409V0z429YWHcJitcRQ88" loading="lazy" height="64" alt="Foto de Ricardo Martinez Vega" id="ember318" >
+                    </picture>
+
+                    <div class="feed__section__central__createpost__top__createpost">
+                        <button class="feed__section__central__createpost__top__createpost-button">
+                            Crear publicación
+                        </button>
+                    </div>
+
+                </section>
+
+                <section class="feed__section__central__createpost__middle">
+                    <ul class="feed__section__central__createpost__middle__list">
+                       <li class="feed__section__central__createpost__middle__list__item">
+                        <button class="feed__section__central__createpost__middle__list__item__button">
+                            <i class="bi bi-card-image"></i>
+                            <p class="feed__section__central__createpost__middle__list__item__button-title">Contenido multimedia</p>
+                        </button>
+                       </li>
+
+                       <li class="feed__section__central__createpost__middle__list__item">
+                        <button class="feed__section__central__createpost__middle__list__item__button">
+                            <i class="bi bi-calendar-week"></i>
+                            <p class="feed__section__central__createpost__middle__list__item__button-title">Evento</p>
+                        </button>
+                       </li>
+
+                       <li class="feed__section__central__createpost__middle__list__item">
+                        <button class="feed__section__central__createpost__middle__list__item__button">
+                            <i class="bi bi-border-width"></i>
+                            <p class="feed__section__central__createpost__middle__list__item__button-title">Escribir articulo</p>
+                        </button>
+                       </li> 
+                    </ul>
+                </section>  
+            </div>
+
+            <div class="feed__section__central__readpost">
+                <div class="feed__section__central__readpost__orderby">
+                    <p class="feed__section__central__readpost__orderby__title">Ordenar por:</p>
+                    <button class="feed__section__central__readpost__orderby__active">Principal <i class="bi bi-caret-down-fill"></i></button>
+                    <form action="" class="feed__section__central__readpost__orderby__form">
+                        <ul class="feed__section__central__readpost__orderby__form__list">
+                            <li class="feed__section__central__readpost__orderby__form__item">
+                                <button class="feed__section__central__readpost__orderby__form__item__button">
+                                    Principal <i class="bi bi-caret-down-fill"></i>
+                                </button>
+                            </li>
+                            <li class="feed__section__central__readpost__orderby__form__item">
+                                <button class="feed__section__central__readpost__orderby__form__item__button">
+                                    Recientes <i class="bi bi-caret-down-fill"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+
+                <!-- Articles or news sections -->
+
+                <section class="feed__section__central__readpost__principal">
+                    <article class="feed__section__central__readpost__news">
+                        <div class="feed__section__central__readpost__news__header">
+    
+                            <div class="feed__section__central__readpost__news__header__left">
+                                <picture class="feed__section__central__readpost__news__header__img">
+                                    <img width="48" src="https://media.licdn.com/dms/image/D4E0BAQHUrodtt0OPBg/company-logo_100_100/0/1690843375185/applaudo_logo?e=1721865600&amp;v=beta&amp;t=XdTWw-csS0jEdr3NXzvrDUqjQryfD6fruFKfQZD5HNI" loading="lazy" height="48" alt="Applaudo" id="ember229" class="ivm-view-attr__img--centered EntityPhoto-square-3  update-components-actor__avatar-image evi-image lazy-image ember-view">
+                                </picture>
+        
+                                <section class="feed__section__central__readpost__news__header__description">
+                                    <h3 class="feed__section__central__readpost__news__header__description-title">
+                                        Applaudo <span>• 1er</span>
+                                    </h3>
+        
+                                    <p class="feed__section__central__readpost__news__header__description-followers">
+                                        81.169 seguidores
+                                    </p>
+        
+                                    <p class="feed__section__central__readpost__news__header__description-createat">
+                                        2 minutos •  <i class="bi bi-globe-americas"></i>
+                                    </p>
+                                </section>
+        
+                            </div>
+    
+                            <div class="feed__section__central__readpost__news__header__right">
+                                <button class="feed__section__central__readpost__news__header__right-more">
+                                    <i class="bi bi-three-dots"></i>
+                                </button>
+                                <button class="feed__section__central__readpost__news__header__right-more">
+                                    <i class="bi bi-x-lg"></i>
+                                </button>
+                            </div>
+                        </div>
+    
+                        <div class="feed__section__central__readpost__news__body">
+                            <div class="feed__section__central__readpost__news__body__title">
+                                <p class="feed__section__central__readpost__news__body__title-text">
+                                    Ready to revolutionize your business? Dive into our Datasheet for insights 
+                                    on how Cloud solutions drive business agility and innovation across various industries. 
+                                    From accelerating development to adapting to changing market conditions, discover how can 
+                                    you unlock innovation to lead your industry forward.
+                                </p>
+                            </div>
+    
+                            <picture class="feed__section__central__readpost__news__body__title-img">
+                                <img width="600" src="https://media.licdn.com/dms/image/D4E10AQEGybg-Fr42PA/image-shrink_1280/0/1714067138478?e=1714687200&v=beta&t=glkm0iz17iCWnK7CQvfDpqWF1TYAGIajMgkPWa7Nhvs" loading="lazy" height="337" alt="Vista previa de la imagen" id="ember237" class="ivm-view-attr__img--centered ivm-view-attr__img--aspect-fit update-components-image__image update-components-image__image--constrained evi-image lazy-image ember-view">
+                            </picture>
+                        </div>
+    
+                        <div class="feed__section__central__readpost__news__footer">
+                            <div class="feed__section__central__readpost__news__footer__left">
+                                <ul class="feed__section__central__readpost__news__footer__left__list">
+                                    <li class="feed__section__central__readpost__news__footer__left__list__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                                    </li>
+                                    <li class="feed__section__central__readpost__news__footer__left__list__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-INTEREST data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/lhxmwiwoag9qepsh4nc28zus" alt="insightful" data-test-reactions-icon-type="INTEREST" data-test-reactions-icon-theme="light">
+                                    </li>
+                                    <li class="feed__section__central__readpost__news__footer__left__list__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--2 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-EMPATHY data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22" alt="love" data-test-reactions-icon-type="EMPATHY" data-test-reactions-icon-theme="light">
+                                    </li>
+                                </ul>
+                                <p class="feed__section__central__readpost__news__footer__left-num">553</p>
+                            </div>
+    
+                            <div class="feed__section__central__readpost__news__footer__right">
+                                <section class="feed__section__central__readpost__news__footer__right__info">
+                                    <button>179 comentarios</button> • <button>34 veces compartido</button>
+                                </section>
+                            </div>
+                        </div>  
+    
+                        <div class="feed__section__central__readpost__news__reactions">
+                            <ul class="feed__section__central__readpost__news__reactions__flex">
+                                <li class="feed__section__central__readpost__news__reactions__flex__item">
+                                    <button class="feed__section__central__readpost__news__reactions__flex__item__button">
+                                        <i class="bi bi-hand-thumbs-up"></i>
+                                        <p class="feed__section__central__readpost__news__reactions__flex__item__button-title">Recomendar</p>
+                                    </button>
+                                </li>
+    
+                                <li class="feed__section__central__readpost__news__reactions__flex__item">
+                                    <button class="feed__section__central__readpost__news__reactions__flex__item__button">
+                                        <i class="bi bi-feather"></i>
+                                        <p class="feed__section__central__readpost__news__reactions__flex__item__button-title">Comentar</p>
+                                    </button>
+                                </li>
+    
+                                <li class="feed__section__central__readpost__news__reactions__flex__item">
+                                    <button class="feed__section__central__readpost__news__reactions__flex__item__button">
+                                        <i class="bi bi-repeat"></i>
+                                        <p class="feed__section__central__readpost__news__reactions__flex__item__button-title">Compartir</p>
+                                    </button>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </article>
+    
+                    <article class="feed__section__central__readpost__news">
+                        <div class="feed__section__central__readpost__news__header">
+    
+                            <div class="feed__section__central__readpost__news__header__left">
+                                <picture class="feed__section__central__readpost__news__header__img">
+                                    <img width="48" src="https://media.licdn.com/dms/image/D4E0BAQHUrodtt0OPBg/company-logo_100_100/0/1690843375185/applaudo_logo?e=1721865600&amp;v=beta&amp;t=XdTWw-csS0jEdr3NXzvrDUqjQryfD6fruFKfQZD5HNI" loading="lazy" height="48" alt="Applaudo" id="ember229" class="ivm-view-attr__img--centered EntityPhoto-square-3  update-components-actor__avatar-image evi-image lazy-image ember-view">
+                                </picture>
+        
+                                <section class="feed__section__central__readpost__news__header__description">
+                                    <h3 class="feed__section__central__readpost__news__header__description-title">
+                                        Applaudo <span>• 1er</span>
+                                    </h3>
+        
+                                    <p class="feed__section__central__readpost__news__header__description-followers">
+                                        81.169 seguidores
+                                    </p>
+        
+                                    <p class="feed__section__central__readpost__news__header__description-createat">
+                                        2 minutos •  <i class="bi bi-globe-americas"></i>
+                                    </p>
+                                </section>
+        
+                            </div>
+    
+                            <div class="feed__section__central__readpost__news__header__right">
+                                <button class="feed__section__central__readpost__news__header__right-more">
+                                    <i class="bi bi-three-dots"></i>
+                                </button>
+                                <button class="feed__section__central__readpost__news__header__right-more">
+                                    <i class="bi bi-x-lg"></i>
+                                </button>
+                            </div>
+                        </div>
+    
+                        <div class="feed__section__central__readpost__news__body">
+                            <div class="feed__section__central__readpost__news__body__title">
+                                <p class="feed__section__central__readpost__news__body__title-text">
+                                    Ready to revolutionize your business? Dive into our Datasheet for insights 
+                                    on how Cloud solutions drive business agility and innovation across various industries. 
+                                    From accelerating development to adapting to changing market conditions, discover how can 
+                                    you unlock innovation to lead your industry forward.
+                                </p>
+                            </div>
+    
+                            <picture class="feed__section__central__readpost__news__body__title-img">
+                                <img width="600" src="https://media.licdn.com/dms/image/D4E22AQG4Rmj-8wbDiw/feedshare-shrink_800/0/1713893792793?e=1717027200&amp;v=beta&amp;t=bJm85LKTMImKSdo3KftaSlg914OqHAfZij-6nBgoRIQ" loading="lazy" height="337" alt="Vista previa de la imagen" id="ember237" class="ivm-view-attr__img--centered ivm-view-attr__img--aspect-fit update-components-image__image update-components-image__image--constrained evi-image lazy-image ember-view">
+                            </picture>
+                        </div>
+    
+                        <div class="feed__section__central__readpost__news__footer">
+                            <div class="feed__section__central__readpost__news__footer__left">
+                                <ul class="feed__section__central__readpost__news__footer__left__list">
+                                    <li class="feed__section__central__readpost__news__footer__left__list__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                                    </li>
+                                    <li class="feed__section__central__readpost__news__footer__left__list__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-INTEREST data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/lhxmwiwoag9qepsh4nc28zus" alt="insightful" data-test-reactions-icon-type="INTEREST" data-test-reactions-icon-theme="light">
+                                    </li>
+                                    <li class="feed__section__central__readpost__news__footer__left__list__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--2 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-EMPATHY data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22" alt="love" data-test-reactions-icon-type="EMPATHY" data-test-reactions-icon-theme="light">
+                                    </li>
+                                </ul>
+                                <p class="feed__section__central__readpost__news__footer__left-num">553</p>
+                            </div>
+    
+                            <div class="feed__section__central__readpost__news__footer__right">
+                                <section class="feed__section__central__readpost__news__footer__right__info">
+                                    <button>179 comentarios</button> • <button>34 veces compartido</button>
+                                </section>
+                            </div>
+                        </div>  
+    
+                        <div class="feed__section__central__readpost__news__reactions">
+                            <ul class="feed__section__central__readpost__news__reactions__flex">
+                                <li class="feed__section__central__readpost__news__reactions__flex__item">
+                                    <button class="feed__section__central__readpost__news__reactions__flex__item__button">
+                                        <i class="bi bi-hand-thumbs-up"></i>
+                                        <p class="feed__section__central__readpost__news__reactions__flex__item__button-title">Recomendar</p>
+                                    </button>
+                                </li>
+    
+                                <li class="feed__section__central__readpost__news__reactions__flex__item">
+                                    <button class="feed__section__central__readpost__news__reactions__flex__item__button">
+                                        <i class="bi bi-feather"></i>
+                                        <p class="feed__section__central__readpost__news__reactions__flex__item__button-title">Comentar</p>
+                                    </button>
+                                </li>
+    
+                                <li class="feed__section__central__readpost__news__reactions__flex__item">
+                                    <button class="feed__section__central__readpost__news__reactions__flex__item__button">
+                                        <i class="bi bi-repeat"></i>
+                                        <p class="feed__section__central__readpost__news__reactions__flex__item__button-title">Compartir</p>
+                                    </button>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </article>
+    
+                    <article class="feed__section__central__readpost__news">
+                        <div class="feed__section__central__readpost__news__header">
+    
+                            <div class="feed__section__central__readpost__news__header__left">
+                                <picture class="feed__section__central__readpost__news__header__img">
+                                    <img width="48" src="https://media.licdn.com/dms/image/D4E0BAQHUrodtt0OPBg/company-logo_100_100/0/1690843375185/applaudo_logo?e=1721865600&amp;v=beta&amp;t=XdTWw-csS0jEdr3NXzvrDUqjQryfD6fruFKfQZD5HNI" loading="lazy" height="48" alt="Applaudo" id="ember229" class="ivm-view-attr__img--centered EntityPhoto-square-3  update-components-actor__avatar-image evi-image lazy-image ember-view">
+                                </picture>
+        
+                                <section class="feed__section__central__readpost__news__header__description">
+                                    <h3 class="feed__section__central__readpost__news__header__description-title">
+                                        Applaudo <span>• 1er</span>
+                                    </h3>
+        
+                                    <p class="feed__section__central__readpost__news__header__description-followers">
+                                        81.169 seguidores
+                                    </p>
+        
+                                    <p class="feed__section__central__readpost__news__header__description-createat">
+                                        2 minutos •  <i class="bi bi-globe-americas"></i>
+                                    </p>
+                                </section>
+        
+                            </div>
+    
+                            <div class="feed__section__central__readpost__news__header__right">
+                                <button class="feed__section__central__readpost__news__header__right-more">
+                                    <i class="bi bi-three-dots"></i>
+                                </button>
+                                <button class="feed__section__central__readpost__news__header__right-more">
+                                    <i class="bi bi-x-lg"></i>
+                                </button>
+                            </div>
+                        </div>
+    
+                        <div class="feed__section__central__readpost__news__body">
+                            <div class="feed__section__central__readpost__news__body__title">
+                                <p class="feed__section__central__readpost__news__body__title-text">
+                                    Ready to revolutionize your business? Dive into our Datasheet for insights 
+                                    on how Cloud solutions drive business agility and innovation across various industries. 
+                                    From accelerating development to adapting to changing market conditions, discover how can 
+                                    you unlock innovation to lead your industry forward.
+                                </p>
+                            </div>
+    
+                            <picture class="feed__section__central__readpost__news__body__title-img">
+                                <img width="600" src="https://media.licdn.com/dms/image/D4E22AQG4Rmj-8wbDiw/feedshare-shrink_800/0/1713893792793?e=1717027200&amp;v=beta&amp;t=bJm85LKTMImKSdo3KftaSlg914OqHAfZij-6nBgoRIQ" loading="lazy" height="337" alt="Vista previa de la imagen" id="ember237" class="ivm-view-attr__img--centered ivm-view-attr__img--aspect-fit update-components-image__image update-components-image__image--constrained evi-image lazy-image ember-view">
+                            </picture>
+                        </div>
+    
+                        <div class="feed__section__central__readpost__news__footer">
+                            <div class="feed__section__central__readpost__news__footer__left">
+                                <ul class="feed__section__central__readpost__news__footer__left__list">
+                                    <li class="feed__section__central__readpost__news__footer__left__list__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                                    </li>
+                                    <li class="feed__section__central__readpost__news__footer__left__list__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-INTEREST data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/lhxmwiwoag9qepsh4nc28zus" alt="insightful" data-test-reactions-icon-type="INTEREST" data-test-reactions-icon-theme="light">
+                                    </li>
+                                    <li class="feed__section__central__readpost__news__footer__left__list__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--2 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-EMPATHY data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22" alt="love" data-test-reactions-icon-type="EMPATHY" data-test-reactions-icon-theme="light">
+                                    </li>
+                                </ul>
+                                <p class="feed__section__central__readpost__news__footer__left-num">553</p>
+                            </div>
+    
+                            <div class="feed__section__central__readpost__news__footer__right">
+                                <section class="feed__section__central__readpost__news__footer__right__info">
+                                    <button>179 comentarios</button> • <button>34 veces compartido</button>
+                                </section>
+                            </div>
+                        </div>  
+    
+                        <div class="feed__section__central__readpost__news__reactions">
+                            <ul class="feed__section__central__readpost__news__reactions__flex">
+                                <li class="feed__section__central__readpost__news__reactions__flex__item">
+                                    <button class="feed__section__central__readpost__news__reactions__flex__item__button">
+                                        <i class="bi bi-hand-thumbs-up"></i>
+                                        <p class="feed__section__central__readpost__news__reactions__flex__item__button-title">Recomendar</p>
+                                    </button>
+                                </li>
+    
+                                <li class="feed__section__central__readpost__news__reactions__flex__item">
+                                    <button class="feed__section__central__readpost__news__reactions__flex__item__button">
+                                        <i class="bi bi-feather"></i>
+                                        <p class="feed__section__central__readpost__news__reactions__flex__item__button-title">Comentar</p>
+                                    </button>
+                                </li>
+    
+                                <li class="feed__section__central__readpost__news__reactions__flex__item">
+                                    <button class="feed__section__central__readpost__news__reactions__flex__item__button">
+                                        <i class="bi bi-repeat"></i>
+                                        <p class="feed__section__central__readpost__news__reactions__flex__item__button-title">Compartir</p>
+                                    </button>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </article>
+                </section>
+
+
+            </div>
+        </section>
+
+        <aside class="feed__section__right">
+            <div class="feed__section__right__feed">
+                <section class="feed__section__right__feed__header">
+                    <div class="feed__section__right__feed__header__title">
+                        <h3 class="feed__section__right__feed__header__title-text">Añadir a tu feed</h3>
+                    </div>
+
+                    <div class="feed__section__right__feed__header__info">
+                        <button class="feed__section__right__feed__header__info-button">
+                            <i class="bi bi-info-square-fill"></i>
+                        </button>
+                    </div>
+                </section>
+
+                <section class="feed__section__right__feed__body">
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/C4E03AQEyGarOrZ5-Ng/profile-displayphoto-shrink_100_100/0/1584340101402?e=1719446400&amp;v=beta&amp;t=APg9LDqyLG-xen0ZACyrBv8MMQU8E3XLCOegNuVQJlw" loading="lazy" height="48" alt="Jessica Barrantes" id="ember144" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Jessica Barrantes</p>
+                            <p class="feed__section__right__feed__body__link__description-text">Regional Human Resources Director | Change Management | Organizational</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/D4E03AQEkvx0nq2qrJA/profile-displayphoto-shrink_100_100/0/1668219561393?e=1719446400&amp;v=beta&amp;t=DOyaUvLYKRamUvUWQjAKbTmtJFtX2gxkKXpboUmzZrA" loading="lazy" height="48" alt="Angélica P." id="ember150" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Angélica P.</p>
+                            <p class="feed__section__right__feed__body__link__description-text">HRBP | Coordinador de Talento Humano | Líder de Talento Humano |Adquisición</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/D4E03AQF_YkpjXs498A/profile-displayphoto-shrink_100_100/0/1711022864058?e=1719446400&amp;v=beta&amp;t=j0lcYweb1CQ3c6GiP06EV6lYw8uaNxF9L7bsxpKMYQk" loading="lazy" height="48" alt="Brais Moure" id="ember156" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Brais Moure</p>
+                            <p class="feed__section__right__feed__body__link__description-text">Freelance full-stack Dev | iOS & Android Engineer | Divulgador sobre</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+                </section>
+
+                <section class="feed__section__right__feed__more">
+                    <a href="#" class="feed__section__right__feed__more-link">
+                        Ver perfiles <i class="bi bi-chevron-right"></i>
+                    </a>
+                </section>
+
+            </div>
+
+            <div class="feed__section__right__help__flex">
+                <div class="feed__section__right__help">
+                    <picture class="feed__section__right__help__img">
+                        <img src="{% static 'build/img/favicon.webp'%}" alt="">
+                    </picture>
+                    <p class="feed__section__right__help__company"> <span>Conecta</span>  Project © 2024 </p>
+                </div>
+
+                <div class="feed__section__right__help__more">
+                    <a href="" class="feed__section__right__help__more-link">Acerca de </a>
+                    <a href="" class="feed__section__right__help__more-link">Accesibilidad</a>
+                    <a href="" class="feed__section__right__help__more-link">About</a>
+                </div>
+            </div>
+        </aside>
+
+    </article>
+{% endblock %}
