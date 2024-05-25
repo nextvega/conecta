@@ -50,7 +50,7 @@
             width: 100%;
             .network__principal__left__management__header__button-text{
                 font-size: 1.6rem;
-                font-weight: 600;
+                font-weight: 500;
             }
             .bi::before{
                 vertical-align: middle !important;
@@ -90,7 +90,7 @@
 
             .network__principal__left__management__body__list__item__link-text{
                 font-size: 1.6rem;
-                font-weight: 600;
+                font-weight: 500;
                 color: $textnav;
             }
         }
@@ -131,7 +131,7 @@
                     padding: 1.6rem 2.5rem;
                     background-color: transparent;
                     border: 0;
-                    font-weight: 600;
+                    font-weight: 500;
                     color: $textnav;
                     cursor: pointer;
                     &:hover{
@@ -177,7 +177,7 @@
                 background-color: transparent;
                 border: 0;
                 color: $textnav;
-                font-weight: 600;
+                font-weight: 500;
                 padding: 0.8rem 1rem;
                 border-radius: 0.5rem;
                 cursor: pointer;
@@ -215,7 +215,7 @@
                     background-color: transparent;
                     border: 0;
                     color: $textnav;
-                    font-weight: 600;
+                    font-weight: 500;
                     padding: 0.8rem 1rem;
                     border-radius: 0.5rem;
                     cursor: pointer;
@@ -304,7 +304,7 @@
                     }
                     .network__principal__right__network__people_card__link__perfil-name{
                         margin-top: 6.1rem;
-                        font-weight: 600;
+                        font-weight: 500;
                         font-size: 1.6rem;
                         color: $textsecondary;
                     }

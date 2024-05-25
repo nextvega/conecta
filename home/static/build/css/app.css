@@ -667,7 +667,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   background-color: #000000;
   border: none;
   color: #FFFFFF;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0.9rem 2.5rem;
   border-radius: 0.3rem;
   cursor: pointer;
@@ -874,7 +874,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .feed__section__left__profile__top .feed__section__left__profile__top__resume .feed__section__left__profile__top__resume-name {
   margin-top: 5.2rem;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
 }
 .feed__section__left__profile__top .feed__section__left__profile__top-subtitle {
@@ -906,13 +906,13 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .feed__section__left__profile__middle .feed__section__left__profile__middle__list .feed__section__left__profile__middle__list__item .feed__section__left__profile__middle__list__item__link .feed__section__left__profile__middle__list__item__link-views {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #6d6d6d;
 }
 .feed__section__left__profile__middle .feed__section__left__profile__middle__list .feed__section__left__profile__middle__list__item .feed__section__left__profile__middle__list__item__link .feed__section__left__profile__middle__list__item__link-numviews {
   color: #000000;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .feed__section__left__profile__bottom {
@@ -937,12 +937,13 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   gap: 0.5rem;
 }
 .feed__section__left__profile__bottom .feed__section__left__profile__bottom__link .feed__section__left__profile__bottom__link__premium .feed__section__left__profile__bottom__link__premium-text {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 .feed__section__left__profile__bottom .feed__section__left__profile__bottom__link .feed__section__left__profile__bottom__link__premium .bi {
   color: #6d6d6d;
   font-size: 1.2rem;
+  vertical-align: middle;
 }
 
 .feed__section__left__profile__more__flex .feed__section__left__profile__more__list {
@@ -961,7 +962,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .feed__section__left__profile__more__flex .feed__section__left__profile__more__list .feed__section__left__profile__more__list__item .feed__section__left__profile__more__list__item-link {
   color: #000000;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .feed__section__left__profile__more__flex .feed__section__left__profile__more__link {
   margin-top: 0.8rem;
@@ -970,7 +971,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   text-align: center;
 }
 .feed__section__left__profile__more__flex .feed__section__left__profile__more__link a {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.4rem;
 }
 
@@ -1095,7 +1096,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .feed__section__central__createpost__middle .feed__section__central__createpost__middle__list .feed__section__central__createpost__middle__list__item .feed__section__central__createpost__middle__list__item__button .feed__section__central__createpost__middle__list__item__button-title {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #3d3d3d;
 }
 
@@ -1126,7 +1127,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   background-color: transparent;
   border: none;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .feed__section__central__readpost .feed__section__central__readpost__orderby .feed__section__central__readpost__orderby__form {
   display: none;
@@ -1170,7 +1171,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .feed__section__central__readpost__news__header .feed__section__central__readpost__news__header__left .feed__section__central__readpost__news__header__description .feed__section__central__readpost__news__header__description-title {
   font-size: 1.4rem;
   margin-bottom: -0.2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .feed__section__central__readpost__news__header .feed__section__central__readpost__news__header__left .feed__section__central__readpost__news__header__description .feed__section__central__readpost__news__header__description-title span {
   font-size: 1.5rem;
@@ -1320,7 +1321,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .feed__section__central__readpost__news__reactions .feed__section__central__readpost__news__reactions__flex .feed__section__central__readpost__news__reactions__flex__item .feed__section__central__readpost__news__reactions__flex__item__button .feed__section__central__readpost__news__reactions__flex__item__button-title {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #3d3d3d;
   transition: transform 0.3s ease;
 }
@@ -1365,7 +1366,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .feed__section__right__feed__header .feed__section__right__feed__header__title .feed__section__right__feed__header__title-text {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .feed__section__right__feed__header .feed__section__right__feed__header__title .feed__section__right__feed__header__title-subtitle {
   font-size: 1.3rem;
@@ -1404,7 +1405,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .feed__section__right__feed__body .feed__section__right__feed__body__link .feed__section__right__feed__body__link__description .feed__section__right__feed__body__link__description-title {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .feed__section__right__feed__body .feed__section__right__feed__body__link .feed__section__right__feed__body__link__description .feed__section__right__feed__body__link__description-text {
   font-size: 1.2rem;
@@ -1416,10 +1417,11 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   margin-top: 0.5rem;
   padding: 0.6rem 1.3rem;
   padding-right: 1.6rem;
-  border: 1px solid #3d3d3d;
+  border: 1px solid #6d6d6d;
   font-size: 1.6rem;
   border-radius: 5rem;
-  font-weight: 600;
+  font-weight: 500;
+  color: #6d6d6d;
 }
 .feed__section__right__feed__body .feed__section__right__feed__body__link .feed__section__right__feed__body__link__description .feed__section__right__feed__body__link__description-button .bi::before {
   font-weight: 800 !important;
@@ -1434,7 +1436,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .feed__section__right__feed__more .feed__section__right__feed__more-link {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #555555;
   text-align: center;
   display: block;
@@ -1581,7 +1583,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   background-color: transparent;
   border: none;
   text-align: left;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0;
   cursor: pointer;
   width: fit-content;
@@ -1603,7 +1605,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .user__principal__left__body__content .user__principal__left__body__content__personal .user__principal__left__body__content__personal-location a {
   color: #000000;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__body__content .user__principal__left__body__content__personal .user__principal__left__body__content__personal-location a:hover {
   text-decoration: underline;
@@ -1611,7 +1613,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .user__principal__left__body__content .user__principal__left__body__content__personal .user__principal__left__body__content__personal-web {
   font-size: 1.4rem;
   color: #000000;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 0.5rem;
 }
 .user__principal__left__body__content .user__principal__left__body__content__personal .user__principal__left__body__content__personal-web .bi::before {
@@ -1633,7 +1635,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .user__principal__left__body__content .user__principal__left__body__content__personal .user__principal__left__body__content__personal__followers .user__principal__left__body__content__personal__followers-follow p {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #000000;
 }
 .user__principal__left__body__content .user__principal__left__body__content__personal .user__principal__left__body__content__personal__followers .user__principal__left__body__content__personal__followers-follow p:hover {
@@ -1641,7 +1643,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .user__principal__left__body__content .user__principal__left__body__content__personal .user__principal__left__body__content__personal__followers .user__principal__left__body__content__personal__followers-contact p {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #000000;
 }
 .user__principal__left__body__content .user__principal__left__body__content__personal .user__principal__left__body__content__personal__followers .user__principal__left__body__content__personal__followers-contact p:hover {
@@ -1693,7 +1695,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .user__principal__left__body__content .user__principal__left__body__content__studys .user__principal__left__body__content__studys__job .user__principal__left__body__content__studys__job-title {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-right: 0.55rem;
   margin-top: -0.2rem;
   cursor: pointer;
@@ -1716,7 +1718,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .user__principal__left__body__content .user__principal__left__body__content__studys .user__principal__left__body__content__studys__highschool .user__principal__left__body__content__studys__highschool-title {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.3;
   margin-right: 0.5rem;
   cursor: pointer;
@@ -1740,7 +1742,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   background-color: #000000;
   border: none;
   color: #FFFFFF;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0.7rem 1.6rem;
   padding-right: 1.5rem;
   border-radius: 0rem;
@@ -1752,7 +1754,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .user__principal__left__body__content__personal__more .user__principal__left__body__content__personal__more__list__buttons .user__principal__left__body__content__personal__more-button:nth-child(2) {
   background-color: transparent;
   border: 1px solid #000000;
-  font-weight: 600;
+  font-weight: 500;
   color: #000000;
   padding: 0rem 1.5rem;
   border-radius: 0rem;
@@ -1760,7 +1762,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .user__principal__left__body__content__personal__more .user__principal__left__body__content__personal__more__list__buttons .user__principal__left__body__content__personal__more-button:nth-child(3) {
   background-color: transparent;
   border: 1px solid #0D1117;
-  font-weight: 600;
+  font-weight: 500;
   color: #0D1117;
   padding: 0rem 1.5rem;
   padding-right: 1.4rem;
@@ -1787,7 +1789,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .user__principal__left__body__content__personal__more .user__principal__left__body__content__personal__more__cards .user__principal__left__body__content__personal__more__card__left .user__principal__left__body__content__personal__more__card__left__description .user__principal__left__body__content__personal__more__card__left__description-title {
   font-size: 1.4rem;
   line-height: 1.3;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__body__content__personal__more .user__principal__left__body__content__personal__more__cards .user__principal__left__body__content__personal__more__card__left .user__principal__left__body__content__personal__more__card__left__description .user__principal__left__body__content__personal__more__card__left__description-subtitle {
   font-size: 1.4rem;
@@ -1796,7 +1798,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .user__principal__left__body__content__personal__more .user__principal__left__body__content__personal__more__cards .user__principal__left__body__content__personal__more__card__left .user__principal__left__body__content__personal__more__card__left__description .user__principal__left__body__content__personal__more__card__left__description-link {
   font-size: 1.4rem;
   line-height: 1.3;
-  font-weight: 600;
+  font-weight: 500;
   color: #000000;
 }
 .user__principal__left__body__content__personal__more .user__principal__left__body__content__personal__more__cards .user__principal__left__body__content__personal__more__card__left .user__principal__left__body__content__personal__more__card__left__edit {
@@ -1840,7 +1842,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   display: flex;
   flex-direction: row;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__analytics .user__principal__left__analytics__flex .user__principal__left__analytics__header .user__principal__left__analytics__header-subtitle {
   font-size: 1.4rem;
@@ -1879,7 +1881,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   font-size: 1.8rem;
 }
 .user__principal__left__analytics .user__principal__left__analytics__flex .user__principal__left__analytics__body .user__principal__left__analytics__body__card .user__principal__left__analytics__body__card__description .user__principal__left__analytics__body__card__description-link {
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__analytics .user__principal__left__analytics__flex .user__principal__left__analytics__body .user__principal__left__analytics__body__card .user__principal__left__analytics__body__card__description .user__principal__left__analytics__body__card__description-link:hover {
   text-decoration: underline;
@@ -1908,7 +1910,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   display: block;
   text-align: center;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #3d3d3d;
 }
 .user__principal__left__analytics .user__principal__left__analytics__view__more .user__principal__left__analytics__view__more__content .user__principal__left__analytics__view__more-link .bi::before {
@@ -1940,7 +1942,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   display: flex;
   flex-direction: row;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__resources .user__principal__left__resources__flex .user__principal__left__resources__header .user__principal__left__resources__header-subtitle {
   font-size: 1.4rem;
@@ -1977,7 +1979,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   font-size: 1.9rem;
 }
 .user__principal__left__resources .user__principal__left__resources__flex .user__principal__left__resources__body .user__principal__left__resources__body__card .user__principal__left__resources__body__card__description .user__principal__left__resources__body__card__description-link {
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__resources .user__principal__left__resources__flex .user__principal__left__resources__body .user__principal__left__resources__body__card .user__principal__left__resources__body__card__description .user__principal__left__resources__body__card__description-link:hover {
   text-decoration: underline;
@@ -2006,7 +2008,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   display: block;
   text-align: center;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #3d3d3d;
 }
 .user__principal__left__resources .user__principal__left__resources__view__more .user__principal__left__resources__view__more__content .user__principal__left__resources__view__more-link .bi::before {
@@ -2038,7 +2040,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .user__principal__left__about .user__principal__left__about__flex .user__principal__left__about__header .user__principal__left__about__header-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__about .user__principal__left__about__flex .user__principal__left__about__header .bi {
   margin-right: -1rem;
@@ -2111,7 +2113,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .user__principal__left__activity .user__principal__left__activity__flex .user__principal__left__activity__header .user__principal__left__activity__header-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__activity .user__principal__left__activity__flex .user__principal__left__activity__header .user__principal__left__activity__header__list {
   display: flex;
@@ -2217,11 +2219,11 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   display: flex;
   flex-direction: row;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__publish .user__principal__left__publish__flex .user__principal__left__publish__header .user__principal__left__publish__header__left .user__principal__left__publish__header__left-subtitle {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -2246,7 +2248,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .user__principal__left__publish .user__principal__left__publish__flex .user__principal__left__publish__header .user__principal__left__publish__header__right__list .user__principal__left__publish__header__right__list-item:first-of-type .user__principal__left__publish__header__right__list-item-button p {
   color: #000000;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.6rem;
 }
 .user__principal__left__publish .user__principal__left__publish__flex .user__principal__left__publish__header .user__principal__left__publish__header__right__list .user__principal__left__publish__header__right__list-item:last-of-type {
@@ -2284,7 +2286,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   color: #FFFFFF;
   padding: 0.6rem 1.1rem;
   border-radius: 0rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__publish .user__principal__left__publish__flex .user__principal__left__publish__nav .user__principal__left__publish__nav__list .user__principal__left__publish__nav__list__item:nth-child(2) .user__principal__left__publish__nav__list__item-button {
   background-color: transparent;
@@ -2292,7 +2294,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   color: #6d6d6d;
   padding: 0.6rem 1.1rem;
   border-radius: 0rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__publish .user__principal__left__publish__flex .user__principal__left__publish__nav .user__principal__left__publish__nav__list .user__principal__left__publish__nav__list__item:nth-child(3) .user__principal__left__publish__nav__list__item-button {
   background-color: transparent;
@@ -2300,7 +2302,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   color: #6d6d6d;
   padding: 0.6rem 1.1rem;
   border-radius: 0rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__publish .user__principal__left__publish__flex .user__principal__left__publish__article {
   padding: 1.1rem 2.35rem;
@@ -2330,7 +2332,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .user__principal__left__publish .user__principal__left__publish__flex .user__principal__left__publish__article .user__principal__left__publish__article__flex .user__principal__left__publish__article__header .user__principal__left__publish__article__header-title {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #6d6d6d;
 }
 .user__principal__left__publish .user__principal__left__publish__flex .user__principal__left__publish__article .user__principal__left__publish__article__flex .user__principal__left__publish__article__header .user__principal__left__publish__article__header-title span {
@@ -2404,7 +2406,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   display: block;
   text-align: center;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #3d3d3d;
 }
 .user__principal__left__publish .user__principal__left__publish__flex .user__principal__left__publish__view__more .user__principal__left__publish__view__more__content .user__principal__left__publish__view__more-link .bi::before {
@@ -2436,7 +2438,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .user__principal__left__experience .user__principal__left__experience__flex .user__principal__left__experience__header .user__principal__left__experience__header-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__experience .user__principal__left__experience__flex .user__principal__left__experience__header .user__principal__left__experience__header__list {
   display: flex;
@@ -2529,7 +2531,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .user__principal__left__experience .user__principal__left__experience__flex .user__principal__left__experience__article .user__principal__left__experience__article__flex .user__principal__left__experience__article__body .user__principal__left__experience__article__body__card__description .user__principal__left__experience__article__body__card__description__flex .user__principal__left__experience__article__body__card__description__flex__header .user__principal__left__experience__article__body__card__description__flex__header-title {
   margin: 0;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #3d3d3d;
 }
 .user__principal__left__experience .user__principal__left__experience__flex .user__principal__left__experience__article .user__principal__left__experience__article__flex .user__principal__left__experience__article__body .user__principal__left__experience__article__body__card__description .user__principal__left__experience__article__body__card__description__flex .user__principal__left__experience__article__body__card__description__flex__header .user__principal__left__experience__article__body__card__description__flex__header-title .user__principal__left__experience__article__body__card__description__flex__header-title-link:hover {
@@ -2585,7 +2587,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   padding-left: 0;
   padding: 0.6rem 1.1rem;
   border-radius: 5rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .user__principal__left__experience .user__principal__left__experience__flex .user__principal__left__experience__article .user__principal__left__experience__article__flex .user__principal__left__experience__article__body .user__principal__left__experience__article__body__card__description .user__principal__left__experience__article__body__card__description__flex .user__principal__left__experience__article__body__card__description__flex__body .user__principal__left__experience__article__body__card__description__flex__body-follow .bi::before {
   font-weight: 800 !important;
@@ -2599,7 +2601,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   border: 0;
   background-color: transparent;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0;
   color: #3d3d3d;
 }
@@ -2622,7 +2624,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   display: block;
   text-align: center;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #3d3d3d;
 }
 .user__principal__left__experience .user__principal__left__experience__flex .user__principal__left__experience__view__more .user__principal__left__experience__view__more__content .user__principal__left__experience__view__more-link .bi::before {
@@ -2648,7 +2650,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   background-color: transparent;
   border: none;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   padding: 1.5rem;
   padding-bottom: 1.5rem;
   margin-top: -3rem;
@@ -2773,7 +2775,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .network__principal__left__management .network__principal__left__management__header .network__principal__left__management__header__button .network__principal__left__management__header__button-text {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .network__principal__left__management .network__principal__left__management__header .network__principal__left__management__header__button .bi::before {
   vertical-align: middle !important;
@@ -2810,7 +2812,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .network__principal__left__management__body__list .network__principal__left__management__body__list__item .network__principal__left__management__body__list__item__link .network__principal__left__management__body__list__item__link-text {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #6d6d6d;
 }
 .network__principal__left__management__body__list .network__principal__left__management__body__list__item .network__principal__left__management__body__list__item-number {
@@ -2846,7 +2848,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   padding: 1.6rem 2.5rem;
   background-color: transparent;
   border: 0;
-  font-weight: 600;
+  font-weight: 500;
   color: #6d6d6d;
   cursor: pointer;
 }
@@ -2884,7 +2886,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   background-color: transparent;
   border: 0;
   color: #6d6d6d;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0.8rem 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -2917,7 +2919,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   background-color: transparent;
   border: 0;
   color: #6d6d6d;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0.8rem 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -3000,7 +3002,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .network__principal__right__network__people .network__principal__right__network__people__grid .network__principal__right__network__people__card .network__principal__right__network__people_card__link .network__principal__right__network__people_card__link__perfil .network__principal__right__network__people_card__link__perfil-name {
   margin-top: 6.1rem;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.6rem;
   color: #3d3d3d;
 }
@@ -3076,7 +3078,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .jobs__principal__grid__content__left .jobs__principal__grid__content__tips .jobs__principal__grid__content__tips-title {
   color: #FFFFFF;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: -0.3rem;
 }
 .jobs__principal__grid__content__left .jobs__principal__grid__content__tips .jobs__principal__grid__content__tips-title .bi {
@@ -3232,7 +3234,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   font-size: 1.4rem;
 }
 .jobs__principal__grid__content__right__article__header .jobs__principal__grid__content__right__article__header__general .jobs__principal__grid__content__right__article__header__general-subtitle a {
-  font-weight: 600;
+  font-weight: 500;
 }
 .jobs__principal__grid__content__right__article__header .jobs__principal__grid__content__right__article__header__general .jobs__principal__grid__content__right__article__header__general-subtitle span {
   color: #6d6d6d;
@@ -3279,7 +3281,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 .jobs__principal__grid__content__right__article__header .jobs__principal__grid__content__right__article__header__general .jobs__principal__grid__content__right__article__header__general__send .jobs__principal__grid__content__right__article__header__general__send-curriculum {
   background-color: #000000;
   color: #FFFFFF;
-  font-weight: 600;
+  font-weight: 500;
   border: 0;
   padding: 0.9rem 2rem;
   cursor: pointer;
@@ -3289,7 +3291,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .jobs__principal__grid__content__right__article__header .jobs__principal__grid__content__right__article__header__general .jobs__principal__grid__content__right__article__header__general__send .jobs__principal__grid__content__right__article__header__general__send-save {
   background-color: transparent;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0.78rem 2.5rem;
   border: 1px solid;
   cursor: pointer;
@@ -3458,7 +3460,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   border-top: 1px solid #efefef;
   padding: 1.5rem;
   color: #000000;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 .jobs__principal__grid__content__right__article__hiring__footer-more:hover {

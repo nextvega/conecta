@@ -73,7 +73,7 @@
         .feed__section__left__profile__top__resume-name{
             margin-top: 5.2rem;
             font-size: 1.6rem;
-            font-weight: 600;
+            font-weight: 500;
             text-align: center;
         }
     }
@@ -107,13 +107,13 @@
                 align-items: center;
                 .feed__section__left__profile__middle__list__item__link-views{
                     font-size: 1.2rem;
-                    font-weight: 600;
+                    font-weight: 500;
                     color: $textnav;
                 }
                 .feed__section__left__profile__middle__list__item__link-numviews{
                     color: $principal;
                     font-size: 1.2rem;
-                    font-weight: 600;
+                    font-weight: 500;
                 }
             }
         }
@@ -142,12 +142,13 @@
             align-items: center;
             gap: 0.5rem;
             .feed__section__left__profile__bottom__link__premium-text{
-                font-size: 1.2rem;
-                font-weight: 600;
+                font-size: 1.1rem;
+                font-weight: 500;
             }
             .bi{
                 color: $textnav;
                 font-size: 1.2rem;
+                vertical-align: middle;
             }
         }
     }
@@ -170,7 +171,7 @@
             .feed__section__left__profile__more__list__item-link{
                 color: $principal;
                 font-size: 1.2rem;
-                font-weight: 600;
+                font-weight: 500;
             }
         }
     }
@@ -180,7 +181,7 @@
         border-top: 1px solid $border;
         text-align: center;
         a{
-            font-weight: 600;
+            font-weight: 500;
             font-size: 1.4rem;
         }
     }
@@ -310,7 +311,7 @@
                 }
                 .feed__section__central__createpost__middle__list__item__button-title{
                     font-size: 1.4rem;
-                    font-weight: 600;
+                    font-weight: 500;
                     color: $textsecondary;
                 }
             }
@@ -343,7 +344,7 @@
             background-color: transparent;
             border: none;
             font-size: 1.2rem;
-            font-weight: 600;
+            font-weight: 500;
         }
         .feed__section__central__readpost__orderby__form{
             display: none;
@@ -390,7 +391,7 @@
             .feed__section__central__readpost__news__header__description-title{
                 font-size: 1.4rem;
                 margin-bottom: -0.2rem;
-                font-weight: 600;
+                font-weight: 500;
                 span{
                     font-size: 1.5rem;
                     color: $textnav;
@@ -551,7 +552,7 @@
                 }
                 .feed__section__central__readpost__news__reactions__flex__item__button-title{
                     font-size: 1.4rem;
-                    font-weight: 600;
+                    font-weight: 500;
                     color: $textsecondary;
                     transition: transform 0.3s ease; 
                 } 
@@ -604,7 +605,7 @@
     .feed__section__right__feed__header__title{
         .feed__section__right__feed__header__title-text{
             font-size: 1.6rem;
-            font-weight: 600;
+            font-weight: 500;
         }
         .feed__section__right__feed__header__title-subtitle{
             font-size: 1.3rem;
@@ -647,7 +648,7 @@
             margin-top: 0.1rem;
             .feed__section__right__feed__body__link__description-title{
                font-size: 1.4rem; 
-               font-weight: 600;
+               font-weight: 500;
             }
             .feed__section__right__feed__body__link__description-text{
                 font-size: 1.2rem; 
@@ -659,10 +660,11 @@
                 margin-top: 0.5rem;
                 padding: 0.6rem 1.3rem;
                 padding-right: 1.6rem;
-                border: 1px solid $textsecondary;
+                border: 1px solid $textnav;
                 font-size: 1.6rem;
                 border-radius: 5rem;
-                font-weight: 600;
+                font-weight: 500;
+                color: $textnav;
                 .bi::before{
                     font-weight: 800 !important;
                 }
@@ -680,7 +682,7 @@
     margin-top: 1rem;
     .feed__section__right__feed__more-link{
         font-size: 1.4rem;
-        font-weight: 600;
+        font-weight: 500;
         color: #555555;
         text-align: center;
         display: block;

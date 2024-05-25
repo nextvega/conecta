@@ -39,7 +39,7 @@
         .jobs__principal__grid__content__tips-title{
             color: $white;
             font-size: 1.6rem;
-            font-weight: 600;
+            font-weight: 500;
             margin-bottom: -0.3rem;
             .bi{
                 vertical-align: middle;
@@ -219,7 +219,7 @@
             font-weight: 400;
             font-size: 1.4rem;
             a{
-                font-weight: 600;
+                font-weight: 500;
             }
             span{
                 color: $textnav;
@@ -270,7 +270,7 @@
             .jobs__principal__grid__content__right__article__header__general__send-curriculum{
                 background-color: $principal;
                 color: $white;
-                font-weight: 600;
+                font-weight: 500;
                 border: 0;
                 padding: 0.9rem 2rem;
                 cursor: pointer;
@@ -282,7 +282,7 @@
 
             .jobs__principal__grid__content__right__article__header__general__send-save{
                 background-color: transparent;
-                font-weight: 600;
+                font-weight: 500;
                 padding: 0.78rem 2.5rem;
                 border: 1px solid;
                 cursor: pointer;
@@ -478,7 +478,7 @@
     border-top: 1px solid $border;
     padding: 1.5rem;
     color: $principal;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
 
     &:hover{
