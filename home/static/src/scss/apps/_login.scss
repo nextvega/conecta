@@ -1,0 +1,153 @@
+.login__principal__grid{
+    position: relative;
+    z-index: 10000;
+    overflow: hidden;
+    background-color: $white;
+    &::after{
+        content: '';
+        display: block;
+        top: 15px;
+        width: 60rem;
+        right: 0;
+        z-index: -1;
+        background-image: url('../img/login2.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 48.5rem;
+        min-height: 48.5rem;
+        position: absolute;
+        background-color: white;
+        // background-blend-mode: luminosity;
+    }
+
+    .login__principal__grid__description{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        max-height: 48.5rem;
+        min-height: 48.5rem;
+        position: relative;
+        margin-top: 0.5rem;
+        &::after{
+            content: '';
+            display: block;
+            top: -10px;
+            width: 500rem;
+            right: 550px;
+            max-height: 50.5rem;
+            min-height: 50.5rem;
+            position: absolute;
+            z-index: 100;
+        }
+        .login__principal__grid__description__welcome{
+            position: relative;
+            z-index: 101;
+            width: 55rem;
+            .login__principal__grid__description__welcome__header{
+                margin-bottom: 1.5rem;
+                margin-top: 0rem;
+                .login__principal__grid__description__welcome__header-title{
+                    color: $textsecondary;
+                    font-weight: 500;
+                    line-height: 1.3;
+                    letter-spacing: -0.8px;
+                    font-size: 5rem;
+                    font-weight: 500;
+                }
+            }
+            .login__principal__grid__description__welcome__body{
+                margin-bottom: 4.5rem;
+                .login__principal__grid__description__welcome__body-text{
+                    color: $textnav;
+                    font-weight: 400;
+                    line-height: 1.3;
+                    letter-spacing: -0.8px;
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+
+    }
+}
+
+
+.login__principal__grid__description__welcome__method{
+    .login__principal__grid__description__welcome__method__grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 1rem;
+        width: 40rem;
+        .login__principal__grid__description__welcome__method__grid__link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.8rem;
+            border-radius: 0.3rem;
+            border: 1px solid $borderalternative;
+            
+            &:hover{
+                background-color: $skyblue;
+                text-decoration: underline;
+            }
+            img{
+                width: auto;
+            }
+            .login__principal__grid__description__welcome__method__grid__link-text{
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+        }
+    }
+    .login__principal__grid__description__welcome__method__conditions{
+        display: block;
+        width: 40rem;
+        margin-top: 1rem;
+        .login__principal__grid__description__welcome__method__conditions-text{
+            font-size: 1.1rem;
+            text-align: center;
+        }
+    }
+}
+
+
+.login__principal__grid__skills{
+    background-color: $skyblue;
+    max-height: 27rem;
+    min-height: 27rem;
+    position: relative;
+    overflow: hidden;
+    .login__principal__grid__skills__content{
+        padding: 0rem 8rem;
+        padding-right: 10rem;
+        .login__principal__grid__skills__content__grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            .login__principal__grid__skills__content__grid__image{
+                .login__principal__grid__skills__content__grid-img{
+                    img{
+                        display: block;
+                        max-width: 30rem;
+                        min-width: 30rem;
+                    }
+                }
+            }
+            .login__principal__grid__skills__content__grid__title{
+                margin-top: 3rem;
+                .login__principal__grid__skills__content__grid__title-text{
+                    font-weight: 200;
+                    font-size: 3rem;
+                    color: $textnav;
+                    span{
+                        font-weight: 600;
+                        color: $textsecondary;
+                    }
+                }
+            }
+        }
+    }
+}

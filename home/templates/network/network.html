@@ -1,0 +1,672 @@
+{% extends 'layouts/index.html' %}
+{% load static %}
+
+
+{% block title %} {{title}} {% endblock %}
+
+
+
+{% block content %}
+    <article class="network__principal__grid">
+        <aside class="network__principal__left">
+            <section class="network__principal__left__management">
+                <div class="network__principal__left__management__header">
+                    <button class="network__principal__left__management__header__button">
+                        <p class="network__principal__left__management__header__button-text">Gestionar mi red</p>
+                        <i class="bi bi-chevron-compact-up"></i>
+                    </button>
+                </div>
+
+                <ul class="network__principal__left__management__body__list">
+                    <li class="network__principal__left__management__body__list__item">
+                        <a class="network__principal__left__management__body__list__item__link">
+                            <i class="bi bi-people-fill"></i>
+                            <p class="network__principal__left__management__body__list__item__link-text">Mi red</p>
+                        </a>
+
+                        <p class="network__principal__left__management__body__list__item-number">62</p>
+                    </li>
+
+                    <li class="network__principal__left__management__body__list__item">
+                        <a class="network__principal__left__management__body__list__item__link">
+                            <i class="bi bi-person-fill"></i>
+                            <p class="network__principal__left__management__body__list__item__link-text">Followers</p>
+                        </a>
+
+                        <p class="network__principal__left__management__body__list__item-number"></p>
+                    </li>
+
+                    <li class="network__principal__left__management__body__list__item">
+                        <a class="network__principal__left__management__body__list__item__link">
+                            <i class="bi bi-calendar-week"></i>
+                            <p class="network__principal__left__management__body__list__item__link-text">Eventos</p>
+                        </a>
+
+                        <p class="network__principal__left__management__body__list__item-number"></p>
+                    </li>
+
+                    <li class="network__principal__left__management__body__list__item">
+                        <a class="network__principal__left__management__body__list__item__link">
+                            <i class="bi bi-building"></i>
+                            <p class="network__principal__left__management__body__list__item__link-text">Páginas</p>
+                        </a>
+
+                        <p class="network__principal__left__management__body__list__item-number">98</p>
+                    </li>
+
+                    <li class="network__principal__left__management__body__list__item">
+                        <a class="network__principal__left__management__body__list__item__link">
+                            <i class="bi bi-newspaper"></i>
+                            <p class="network__principal__left__management__body__list__item__link-text">Newsletter</p>
+                        </a>
+
+                        <p class="network__principal__left__management__body__list__item-number">1</p>
+                    </li>
+
+                    <li class="network__principal__left__management__body__list__item">
+                        <a class="network__principal__left__management__body__list__item__link">
+                            <i class="bi bi-hash"></i>
+                            <p class="network__principal__left__management__body__list__item__link-text">Hashtags</p>
+                        </a>
+
+                        <p class="network__principal__left__management__body__list__item-number"></p>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="feed__section__right__feed feed__section__right__feed_user">
+                <section class="feed__section__right__feed__header">
+                    <div class="feed__section__right__feed__header__title">
+                        <h3 class="feed__section__right__feed__header__title-text">Personas que podrías conocer</h3>
+                        <p class="feed__section__right__feed__header__title-subtitle">A partir de tu sector</p>
+                    </div>
+
+                    <div class="feed__section__right__feed__header__info">
+                        <button class="feed__section__right__feed__header__info-button">
+                            <i class="bi bi-info-square-fill"></i>
+                        </button>
+                    </div>
+                </section>
+
+                <section class="feed__section__right__feed__body">
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/C4E03AQEyGarOrZ5-Ng/profile-displayphoto-shrink_100_100/0/1584340101402?e=1719446400&amp;v=beta&amp;t=APg9LDqyLG-xen0ZACyrBv8MMQU8E3XLCOegNuVQJlw" loading="lazy" height="48" alt="Jessica Barrantes" id="ember144" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Jessica Barrantes</p>
+                            <p class="feed__section__right__feed__body__link__description-text">Regional Human Resources Director | Change Management | Organizational</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/D4E03AQEkvx0nq2qrJA/profile-displayphoto-shrink_100_100/0/1668219561393?e=1719446400&amp;v=beta&amp;t=DOyaUvLYKRamUvUWQjAKbTmtJFtX2gxkKXpboUmzZrA" loading="lazy" height="48" alt="Angélica P." id="ember150" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Angélica P.</p>
+                            <p class="feed__section__right__feed__body__link__description-text">HRBP | Coordinador de Talento Humano | Líder de Talento Humano |Adquisición</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/D4E03AQF_YkpjXs498A/profile-displayphoto-shrink_100_100/0/1711022864058?e=1719446400&amp;v=beta&amp;t=j0lcYweb1CQ3c6GiP06EV6lYw8uaNxF9L7bsxpKMYQk" loading="lazy" height="48" alt="Brais Moure" id="ember156" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Brais Moure</p>
+                            <p class="feed__section__right__feed__body__link__description-text">Freelance full-stack Dev | iOS & Android Engineer | Divulgador sobre</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+                </section>
+
+                <section class="feed__section__right__feed__more">
+                    <a href="#" class="feed__section__right__feed__more-link">
+                        Ver perfiles <i class="bi bi-chevron-right"></i>
+                    </a>
+                </section>
+
+            </div>
+
+            <section class="network__principal__left__about">
+                <section class="user__principal__right__general__newsletter">
+                    <picture class="user__principal__right__general__newsletter-picture">
+                        <img src="{% static 'build/img/anuncio.webp'%}" alt="newsletter">
+                    </picture>
+                </section>
+                <div class="feed__section__right__help__flex">
+                    <div class="feed__section__right__help">
+                        <picture class="feed__section__right__help__img">
+                            <img src="{% static 'build/img/logo2.webp'%}" alt="">
+                        </picture>
+                        <p class="feed__section__right__help__company"> <span>Conecta.</span>  a new future. </p>
+                    </div>
+    
+                    <div class="feed__section__right__help__more">
+                        <a href="" class="feed__section__right__help__more-link"><i class="bi bi-instagram"></i></a>
+                        <a href="" class="feed__section__right__help__more-link"><i class="bi bi-github"></i></a>
+                        <a href="" class="feed__section__right__help__more-link"><i class="bi bi-twitter-x"></i></a>
+                        <a href="" class="feed__section__right__help__more-link"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+        <div class="network__principal__right">
+            <nav class="network__principal__right__nav">
+                <ul class="network__principal__right__nav__list">
+                    <li class="network__principal__right__nav__list__item">
+                        <button class="network__principal__right__nav__list__item-button network__principal__right__nav__list__item-button-active">Amplía tu red</button>
+                    </li>
+
+                    <li class="network__principal__right__nav__list__item">
+                        <button class="network__principal__right__nav__list__item-button">Ponte al día</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="network__principal__right__invitations">
+                <div class="network__principal__right__invitations__entrys">
+                    <p class="network__principal__right__invitations__entrys-notfound">No hay invitaciones pendientes</p>
+                </div>
+
+                <div class="network__principal__right__invitations__manage">
+                    <button class="network__principal__right__invitations__manage-button">Gestionar</button>
+                </div>
+            </section>
+
+            <main class="network__principal__right__network">
+                <header class="network__principal__right__network__header">
+                    <div class="network__principal__right__network__header__title">
+                        <p class="network__principal__right__network__header__title-text">Personas con el cargo de Ingenieros de software que podrías conocer</p>
+                    </div>
+
+                    <div class="network__principal__right__network__header__manage">
+                        <button class="network__principal__right__network__header__manage-button">Ver todo</button>
+                    </div>
+                </header>
+                
+                <div class="network__principal__right__network__people">
+                    <section class="network__principal__right__network__people__grid">
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQFj4tYa9LtoCQ/profile-displaybackgroundimage-shrink_200_800/0/1713830993014?e=1721260800&amp;v=beta&amp;t=2pXOcOFxW2oo9xuPOmilJimDEEsMFAr1oW4zcyeRqVY" loading="lazy" alt="" id="ember712" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/C5603AQE033FSz8zV_Q/profile-displayphoto-shrink_200_200/0/1645472538633?e=1721260800&amp;v=beta&amp;t=QigrTTYd1chs8_SfChxsA8CP_KG6QhONUl7K0QQrrkA" loading="lazy" height="104" alt="" id="ember713" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Bayron Rodezno</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">CEO en DevTech - Full Stack Developer</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">7 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQFC4u81xnjmLQ/profile-displaybackgroundimage-shrink_200_800/0/1715578999288?e=1721260800&v=beta&t=6UmrxIOV1NzvbEo7d1i38n4iuuzaUiaIG7k1SzzOm34" loading="lazy" alt="" id="ember712" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/C4E03AQEtFn7jGWyEFA/profile-displayphoto-shrink_200_200/0/1657821620580?e=1721260800&amp;v=beta&amp;t=EoQt7NJa6hnPMRR3wV4VlJY768umcVKrbknCkc4-4vU" loading="lazy" height="104" alt="" id="ember269" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Gabriela Guevara</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">Senior Software Engineer</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">9 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQEJOlkOsq81gQ/profile-displaybackgroundimage-shrink_200_800/0/1679506541845?e=1721260800&amp;v=beta&amp;t=BzwOCMNISwWPPCSmt7A00_HthsQbJHDmcGnU50bgbuU" loading="lazy" alt="" id="ember1099" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/D4E03AQGGNT8crXg9Uw/profile-displayphoto-shrink_200_200/0/1686593510455?e=1721260800&amp;v=beta&amp;t=L7F5OkG39lLuiXsyNMdBUk-LXz67uPjfNOVTz4Lf8J0" loading="lazy" height="104" alt="" id="ember1100" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Eduardo Linares</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">Service Delivery Leader at Applaudo | IT Project</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">2 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQG4lnhSx9QbyA/profile-displaybackgroundimage-shrink_200_800/0/1711148018270?e=1721260800&amp;v=beta&amp;t=gtWhiY6HrkNCzc7RDAH2vM4KpUgaKf_VdVzHbFdOFlg" loading="lazy" alt="" id="ember1244" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/D4E35AQEGh-l06g1Kqw/profile-framedphoto-shrink_200_200/0/1712337297701?e=1716361200&amp;v=beta&amp;t=5-uizrQUigcBlAOVKmLcnIFg315nXdqDkDyw3y2GfHI" loading="lazy" height="104" alt="" id="ember1245" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Raquel Flamenco</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">HR Manager || Coordinadora</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">9 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQEJOlkOsq81gQ/profile-displaybackgroundimage-shrink_200_800/0/1679506541845?e=1721260800&amp;v=beta&amp;t=BzwOCMNISwWPPCSmt7A00_HthsQbJHDmcGnU50bgbuU" loading="lazy" alt="" id="ember1099" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/D4E03AQGGNT8crXg9Uw/profile-displayphoto-shrink_200_200/0/1686593510455?e=1721260800&amp;v=beta&amp;t=L7F5OkG39lLuiXsyNMdBUk-LXz67uPjfNOVTz4Lf8J0" loading="lazy" height="104" alt="" id="ember1100" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Eduardo Linares</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">Service Delivery Leader at Applaudo | IT Project</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">2 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQG4lnhSx9QbyA/profile-displaybackgroundimage-shrink_200_800/0/1711148018270?e=1721260800&amp;v=beta&amp;t=gtWhiY6HrkNCzc7RDAH2vM4KpUgaKf_VdVzHbFdOFlg" loading="lazy" alt="" id="ember1244" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/D4E35AQEGh-l06g1Kqw/profile-framedphoto-shrink_200_200/0/1712337297701?e=1716361200&amp;v=beta&amp;t=5-uizrQUigcBlAOVKmLcnIFg315nXdqDkDyw3y2GfHI" loading="lazy" height="104" alt="" id="ember1245" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Raquel Flamenco</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">HR Manager || Coordinadora</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">9 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQFC4u81xnjmLQ/profile-displaybackgroundimage-shrink_200_800/0/1715578999288?e=1721260800&v=beta&t=6UmrxIOV1NzvbEo7d1i38n4iuuzaUiaIG7k1SzzOm34" loading="lazy" alt="" id="ember712" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/C4E03AQEtFn7jGWyEFA/profile-displayphoto-shrink_200_200/0/1657821620580?e=1721260800&amp;v=beta&amp;t=EoQt7NJa6hnPMRR3wV4VlJY768umcVKrbknCkc4-4vU" loading="lazy" height="104" alt="" id="ember269" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Gabriela Guevara</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">Senior Software Engineer</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">9 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQFj4tYa9LtoCQ/profile-displaybackgroundimage-shrink_200_800/0/1713830993014?e=1721260800&amp;v=beta&amp;t=2pXOcOFxW2oo9xuPOmilJimDEEsMFAr1oW4zcyeRqVY" loading="lazy" alt="" id="ember712" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/C5603AQE033FSz8zV_Q/profile-displayphoto-shrink_200_200/0/1645472538633?e=1721260800&amp;v=beta&amp;t=QigrTTYd1chs8_SfChxsA8CP_KG6QhONUl7K0QQrrkA" loading="lazy" height="104" alt="" id="ember713" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Bayron Rodezno</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">CEO en DevTech - Full Stack Developer</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">7 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQFj4tYa9LtoCQ/profile-displaybackgroundimage-shrink_200_800/0/1713830993014?e=1721260800&amp;v=beta&amp;t=2pXOcOFxW2oo9xuPOmilJimDEEsMFAr1oW4zcyeRqVY" loading="lazy" alt="" id="ember712" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/C5603AQE033FSz8zV_Q/profile-displayphoto-shrink_200_200/0/1645472538633?e=1721260800&amp;v=beta&amp;t=QigrTTYd1chs8_SfChxsA8CP_KG6QhONUl7K0QQrrkA" loading="lazy" height="104" alt="" id="ember713" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Bayron Rodezno</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">CEO en DevTech - Full Stack Developer</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">7 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQFC4u81xnjmLQ/profile-displaybackgroundimage-shrink_200_800/0/1715578999288?e=1721260800&v=beta&t=6UmrxIOV1NzvbEo7d1i38n4iuuzaUiaIG7k1SzzOm34" loading="lazy" alt="" id="ember712" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/C4E03AQEtFn7jGWyEFA/profile-displayphoto-shrink_200_200/0/1657821620580?e=1721260800&amp;v=beta&amp;t=EoQt7NJa6hnPMRR3wV4VlJY768umcVKrbknCkc4-4vU" loading="lazy" height="104" alt="" id="ember269" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Gabriela Guevara</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">Senior Software Engineer</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">9 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQEJOlkOsq81gQ/profile-displaybackgroundimage-shrink_200_800/0/1679506541845?e=1721260800&amp;v=beta&amp;t=BzwOCMNISwWPPCSmt7A00_HthsQbJHDmcGnU50bgbuU" loading="lazy" alt="" id="ember1099" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/D4E03AQGGNT8crXg9Uw/profile-displayphoto-shrink_200_200/0/1686593510455?e=1721260800&amp;v=beta&amp;t=L7F5OkG39lLuiXsyNMdBUk-LXz67uPjfNOVTz4Lf8J0" loading="lazy" height="104" alt="" id="ember1100" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Eduardo Linares</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">Service Delivery Leader at Applaudo | IT Project</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">2 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQG4lnhSx9QbyA/profile-displaybackgroundimage-shrink_200_800/0/1711148018270?e=1721260800&amp;v=beta&amp;t=gtWhiY6HrkNCzc7RDAH2vM4KpUgaKf_VdVzHbFdOFlg" loading="lazy" alt="" id="ember1244" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/D4E35AQEGh-l06g1Kqw/profile-framedphoto-shrink_200_200/0/1712337297701?e=1716361200&amp;v=beta&amp;t=5-uizrQUigcBlAOVKmLcnIFg315nXdqDkDyw3y2GfHI" loading="lazy" height="104" alt="" id="ember1245" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Raquel Flamenco</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">HR Manager || Coordinadora</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">9 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQEJOlkOsq81gQ/profile-displaybackgroundimage-shrink_200_800/0/1679506541845?e=1721260800&amp;v=beta&amp;t=BzwOCMNISwWPPCSmt7A00_HthsQbJHDmcGnU50bgbuU" loading="lazy" alt="" id="ember1099" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/D4E03AQGGNT8crXg9Uw/profile-displayphoto-shrink_200_200/0/1686593510455?e=1721260800&amp;v=beta&amp;t=L7F5OkG39lLuiXsyNMdBUk-LXz67uPjfNOVTz4Lf8J0" loading="lazy" height="104" alt="" id="ember1100" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Eduardo Linares</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">Service Delivery Leader at Applaudo | IT Project</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">2 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQG4lnhSx9QbyA/profile-displaybackgroundimage-shrink_200_800/0/1711148018270?e=1721260800&amp;v=beta&amp;t=gtWhiY6HrkNCzc7RDAH2vM4KpUgaKf_VdVzHbFdOFlg" loading="lazy" alt="" id="ember1244" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/D4E35AQEGh-l06g1Kqw/profile-framedphoto-shrink_200_200/0/1712337297701?e=1716361200&amp;v=beta&amp;t=5-uizrQUigcBlAOVKmLcnIFg315nXdqDkDyw3y2GfHI" loading="lazy" height="104" alt="" id="ember1245" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Raquel Flamenco</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">HR Manager || Coordinadora</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">9 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQFC4u81xnjmLQ/profile-displaybackgroundimage-shrink_200_800/0/1715578999288?e=1721260800&v=beta&t=6UmrxIOV1NzvbEo7d1i38n4iuuzaUiaIG7k1SzzOm34" loading="lazy" alt="" id="ember712" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/C4E03AQEtFn7jGWyEFA/profile-displayphoto-shrink_200_200/0/1657821620580?e=1721260800&amp;v=beta&amp;t=EoQt7NJa6hnPMRR3wV4VlJY768umcVKrbknCkc4-4vU" loading="lazy" height="104" alt="" id="ember269" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Gabriela Guevara</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">Senior Software Engineer</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">9 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+
+                        <article class="network__principal__right__network__people__card">
+                            <a href="" class="network__principal__right__network__people_card__link">
+                                <div class="network__principal__right__network__people_card__link__close">
+                                    <button class="network__principal__right__network__people_card__link__close-button">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                </div>
+                                
+                                <picture class="network__principal__right__network__people_card__link__background">
+                                    <img src="https://media.licdn.com/dms/image/D4E16AQFj4tYa9LtoCQ/profile-displaybackgroundimage-shrink_200_800/0/1713830993014?e=1721260800&amp;v=beta&amp;t=2pXOcOFxW2oo9xuPOmilJimDEEsMFAr1oW4zcyeRqVY" loading="lazy" alt="" id="ember712" class="ivm-view-attr__img--centered ivm-view-attr__entity-img--profile  discover-entity-type-card__coverphoto discover-entity-type-card__coverphoto--dash discover-entity-type-card__coverphoto--people evi-image lazy-image ember-view">
+                                </picture>
+
+
+
+                                <div class="network__principal__right__network__people_card__link__perfil">
+                                    <picture class="network__principal__right__network__people_card__link__perfil__img">
+                                        <img width="104" src="https://media.licdn.com/dms/image/C5603AQE033FSz8zV_Q/profile-displayphoto-shrink_200_200/0/1645472538633?e=1721260800&amp;v=beta&amp;t=QigrTTYd1chs8_SfChxsA8CP_KG6QhONUl7K0QQrrkA" loading="lazy" height="104" alt="" id="ember713" class="ivm-view-attr__img--centered EntityPhoto-circle-7  discover-entity-type-card__image-circle discover-entity-type-card__image-circle--dash Elevation-0dp evi-image lazy-image ember-view">
+                                    </picture>
+                                    <p class="network__principal__right__network__people_card__link__perfil-name">Bayron Rodezno</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-subtitle">CEO en DevTech - Full Stack Developer</p>
+                                    <p class="network__principal__right__network__people_card__link__perfil-followers">7 contactos en común</p>
+                                </div>
+                            </a>
+                            
+                            <button class="network__principal__right__network__people_card__button">
+                                <i class="bi bi-person-plus-fill"></i> Conectar
+                            </button>
+                        </article>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </article>
+{% endblock %}

@@ -1,0 +1,86 @@
+.header__top__login{
+    background-color: $textsecondary;
+    .header__top__login__content{
+        padding: 0.3rem 0rem;
+        padding-bottom: 0.5rem;
+        .header__top__login__content__list{
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            align-items: center;
+            .header__top__login__content__list__item{
+                .header__top__login__content__list__item-link{
+                    color: $white;
+                    font-weight: 400;
+                    font-size: 1.3rem;
+                    margin: 0;
+                    letter-spacing: -0.5px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+.header__principal__login{
+    position: relative;
+    border: none;
+    .header__principal__grid__login{
+        margin: 0;
+        padding-top: 1rem;
+        .header__principal__grid__left{
+            gap: 1rem;
+            .header__principal__login__grid__logo-name{
+                font-size: 1.5rem;
+                margin-top: 0.25rem;
+                span{
+                    color: $textnav;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .header__principal__grid__right{
+            gap: 3.1rem;
+            .header__principal__right__nav__business{
+                gap: 3rem;
+                &::after{
+                    top: 12px;
+                    height: 3.5rem;
+                    left: 86.3rem;
+                    border-left: 1px solid $shadow;
+                }
+                .header__principal__right__nav__item__principal{
+                    max-width: none;
+                    min-width: max-content;
+                    .header__principal__right__nav__business__item-link{
+                        font-size: 1.45rem;
+                        padding: 0.4rem 1.5rem;
+                        color: $textnav;
+                        font-weight: 500;
+                        border: 1px solid $borderalternative;
+                        border-radius: 0.3rem;
+                    }
+                    
+                }
+
+                .header__principal__right__nav__business__item:first-of-type{
+                    .header__principal__right__nav__item__principal{
+                        .header__principal__right__nav__business__item-link{
+                            border: none;
+                            font-weight: 500;
+                            color: $black;
+                        }
+
+                    }
+
+                    
+                }
+            }
+        }
+    }
+}
+
+
+

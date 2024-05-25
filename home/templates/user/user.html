@@ -1,0 +1,942 @@
+{% extends 'layouts/index.html' %}
+{% load static %}
+
+
+{% block title %} {{title}} {% endblock %}
+
+
+
+{% block content %}
+    <article class="user__principal__grid">
+        <div class="user__principal__left">
+            <section class="user__principal__left__header">
+                <div class="user__principal__left__header__content">
+                    <div class="user__principal__left__header__content-edit">
+                        <i class="bi bi-pencil-fill"></i>
+                    </div>
+                    <div class="user__principal__left__header__content-background">
+                        <img class="profile-background-image__image relative
+                        full-width full-height" id="profile-background-image-target-image" alt="Imagen de fondo" src="https://media.licdn.com/dms/image/D4E16AQFC4u81xnjmLQ/profile-displaybackgroundimage-shrink_350_1400/0/1715578999288?e=1721260800&amp;v=beta&amp;t=j8oblR33JgeQKAKcFnwIKVmLBZcOZ1gizXY6VUjoZuE" style="left:0px;top:0px;">
+                    </div>
+                    <picture class="user__principal__left__header__content-img">
+                        <img width="200" src="https://media.licdn.com/dms/image/D4E35AQFDOvNwYl5exQ/profile-framedphoto-shrink_200_200/0/1715578423351?e=1716865200&amp;v=beta&amp;t=n5V7V2tSRHNNcF9OuZZhj_jJ-3fAgOSHC3yQWg8o-wY" height="200" alt="Ricardo Martinez Vega, #OPEN_TO_WORK" id="ember238" class="evi-image ember-view profile-photo-edit__preview">
+                    </picture>
+                </div>
+
+                <section class="user__principal__left__body__content">
+                    <div class="user__principal__left__body__content__personal">
+                        <button class="user__principal__left__body__content__personal-title">
+                            Ricardo Martinez Vega
+                        </button>
+                        <p class="user__principal__left__body__content__personal-profesion">Software Developer | Experto En JavaScript, Python, PHP, PL/SQL, Oracle</p>
+                        <p class="user__principal__left__body__content__personal-location">Mejicanos, San Salvador, El Salvador • <a href="">Información de contacto</a></p>
+                        <a class="user__principal__left__body__content__personal-web" href="#">Web Oficial  <i class="bi bi-box-arrow-up-right"></i> </a>
+
+                        <ul class="user__principal__left__body__content__personal__followers">
+                            <li class="user__principal__left__body__content__personal__followers-follow"> <p>61 seguidores</p> </li>
+                            •
+                            <li class="user__principal__left__body__content__personal__followers-contact"> <p>60 contactos</p></li>
+                        </ul>
+
+
+
+                    </div>
+
+                    <div class="user__principal__left__body__content__studys">
+                        <div class="user__principal__left__body__content__studys-edit">
+                            <i class="bi bi-pencil-fill"></i>
+                        </div>
+                        <article class="user__principal__left__body__content__studys__job">
+                            <picture class="user__principal__left__body__content__studys__job-img">
+                                <img src="https://media.licdn.com/dms/image/D4E0BAQGQ82xxs28hCw/company-logo_100_100/0/1702862038022/personalsoft_logo?e=1722470400&amp;v=beta&amp;t=nRprf6p2fBMRG4dNK_PeYK-Dyj7afsOTA_qL_rj6-0M" alt="" id="ember5590" class="evi-image ember-view cZtwfVhIfEhblhNEQGVBforUWQvlXakQcTo EntityPhoto-square-1">
+                            </picture>
+                            <p class="user__principal__left__body__content__studys__job-title">PersonalSoft</p>
+                        </article>
+                        <article class="user__principal__left__body__content__studys__highschool">
+                            <picture class="user__principal__left__body__content__studys__highschool-img">
+                                <img src="{% static 'build/img/notfound.svg'%}" alt="" id="ember5591" class="evi-image ghost-school ember-view pv-text-details__right-panel-item-text-image EntityPhoto-square-1">
+                            </picture>
+                            <p class="user__principal__left__body__content__studys__highschool-title">Universidad Pedagógica de El Salvador</p>
+                        </article>
+                    </div>
+                </section>
+
+                <div class="user__principal__left__body__content__personal__more">
+                    <section class="user__principal__left__body__content__personal__more__list__buttons">
+                        <button class="user__principal__left__body__content__personal__more-button">
+                            Tengo interés en<span>...</span>
+                        </button>
+
+                        <button class="user__principal__left__body__content__personal__more-button">
+                            Añadir sección
+                        </button>
+
+                        <button class="user__principal__left__body__content__personal__more-button">
+                            Más
+                        </button>
+                    </section>
+
+                    <div class="user__principal__left__body__content__personal__more__cards">
+                        <article class="user__principal__left__body__content__personal__more__card__left">
+                            <div class="user__principal__left__body__content__personal__more__card__left__description">
+                                <h1 class="user__principal__left__body__content__personal__more__card__left__description-title">En busca de empleo</h1>
+                                <p class="user__principal__left__body__content__personal__more__card__left__description-subtitle">Cargos de Software Developer, React Developer, ...</p>
+                                <a href="#" class="user__principal__left__body__content__personal__more__card__left__description-link">Mostrar detalles</a>
+                            </div>
+                            <button class="user__principal__left__body__content__personal__more__card__left__edit">
+                                <i class="bi bi-pencil"></i>
+                            </button>
+                        </article>
+
+                        <article class="user__principal__left__body__content__personal__more__card__left">
+                            <div class="user__principal__left__body__content__personal__more__card__left__description">
+                                <h1 class="user__principal__left__body__content__personal__more__card__left__description-title">Prestar servicios</h1>
+                                <p class="user__principal__left__body__content__personal__more__card__left__description-subtitle">Desarrollo de base de datos, Desarrollo web, Des...</p>
+                                <a href="#" class="user__principal__left__body__content__personal__more__card__left__description-link">Mostrar detalles</a>
+                            </div>
+                            <button class="user__principal__left__body__content__personal__more__card__left__edit">
+                                <i class="bi bi-pencil"></i>
+                            </button>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="user__principal__left__analytics">
+                <div class="user__principal__left__analytics__flex">
+                    <header class="user__principal__left__analytics__header">
+                        <h3 class="user__principal__left__analytics__header-title">Análisis</h3>
+                        <p class="user__principal__left__analytics__header-subtitle"><i class="bi bi-eye-fill"></i> Solo para ti</p>
+                    </header>
+
+                    <section class="user__principal__left__analytics__body">
+                        <article class="user__principal__left__analytics__body__card">
+                            <div class="user__principal__left__analytics__body__card__title">
+                                <a class="user__principal__left__analytics__body__card__title-link" href="#">
+                                    <i class="bi bi-people-fill"></i>
+                                </a>
+                            </div>
+
+                            <div class="user__principal__left__analytics__body__card__description">
+                                <a class="user__principal__left__analytics__body__card__description-link" href="#">23 visualizaciones del perfil</a>
+                                <p class="user__principal__left__analytics__body__card__description-text">Descubre quién ha visto tu perfil.</p>
+                            </div>
+                        </article>
+
+                        <article class="user__principal__left__analytics__body__card">
+                            <div class="user__principal__left__analytics__body__card__title">
+                                <a class="user__principal__left__analytics__body__card__title-link" href="#">
+                                    <i class="bi bi-diagram-3-fill"></i>
+                                </a>
+                            </div>
+
+                            <div class="user__principal__left__analytics__body__card__description">
+                                <a class="user__principal__left__analytics__body__card__description-link" href="#">86 impresiones de tu publicación</a>
+                                <p class="user__principal__left__analytics__body__card__description-text">
+                                    Mira quién está interactúando con tus publicaciones.
+                                    <span class="user__principal__left__analytics__body__card__description-text-span">Últimos 7 días</span>
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="user__principal__left__analytics__body__card">
+                            <div class="user__principal__left__analytics__body__card__title">
+                                <a class="user__principal__left__analytics__body__card__title-link" href="#">
+                                    <i class="bi bi-search"></i>
+                                </a>
+                            </div>
+
+                            <div class="user__principal__left__analytics__body__card__description">
+                                <a class="user__principal__left__analytics__body__card__description-link" href="#">13 apariciones en búsquedas</a>
+                                <p class="user__principal__left__analytics__body__card__description-text">
+                                    Mira con qué frecuencia apareces en los resultados de búsqueda.
+                                </p>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                <div class="user__principal__left__analytics__view__more">
+                    <section class="user__principal__left__analytics__view__more__content">
+                        <a class="user__principal__left__analytics__view__more-link" href="#">
+                            Mostrar todos los análisis <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </section>
+                </div>
+            </section>
+
+            <section class="user__principal__left__resources">
+                <div class="user__principal__left__resources__flex">
+                    <header class="user__principal__left__resources__header">
+                        <h3 class="user__principal__left__resources__header-title">Recursos</h3>
+                        <p class="user__principal__left__resources__header-subtitle"><i class="bi bi-eye-fill"></i> Solo para ti</p>
+                    </header>
+
+                    <section class="user__principal__left__resources__body">
+                        <article class="user__principal__left__resources__body__card">
+                            <div class="user__principal__left__resources__body__card__title">
+                                <a class="user__principal__left__resources__body__card__title-link" href="#">
+                                    <i class="bi bi-people-fill"></i>
+                                </a>
+                            </div>
+
+                            <div class="user__principal__left__resources__body__card__description">
+                                <a class="user__principal__left__resources__body__card__description-link" href="#">Mi red</a>
+                                <p class="user__principal__left__resources__body__card__description-text">Ve y gestiona tus contactos e intereses.</p>
+                            </div>
+                        </article>
+
+                        <article class="user__principal__left__resources__body__card">
+                            <div class="user__principal__left__resources__body__card__title">
+                                <a class="user__principal__left__resources__body__card__title-link" href="#">
+                                    <i class="bi bi-bookmark-fill"></i>
+                                </a>
+                            </div>
+
+                            <div class="user__principal__left__resources__body__card__description">
+                                <a class="user__principal__left__resources__body__card__description-link" href="#">Mis cosas</a>
+                                <p class="user__principal__left__resources__body__card__description-text">Llevar un registro de tus empleos, cursos y artículos.</p>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+                <div class="user__principal__left__resources__view__more">
+                    <section class="user__principal__left__resources__view__more__content">
+                        <a class="user__principal__left__resources__view__more-link" href="#">
+                            Mostrar todos los recursos (4) <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </section>
+                </div>
+            </section>
+
+            <section class="user__principal__left__about">
+                <div class="user__principal__left__about__flex">
+                    <header class="user__principal__left__about__header">
+                        <h3 class="user__principal__left__about__header-title">Acerca de </h3>
+                        <i class="bi bi-pencil-fill"></i>
+                    </header>
+
+                    <section class="user__principal__left__about__body">
+                        <p class="user__principal__left__about__body-text">
+                            Desarrollador web full-stack, con mas de 4 años de experiencia tanto laborales como profesionales, e trabajado con diversas empresas, 
+                            clientes donde e aplicado mis conocimientos y habilidades de desarrollo con diferentes metodologias para hacer un trabajo limpio y calidad.
+                        </p>
+                        <div class="user__principal__left__about__body__text__more">
+                            <p class="user__principal__left__about__body__text__more-text">...</p>
+                            <button class="user__principal__left__about__body__text__more-button">... ver más</button>
+                        </div>
+                    </section>
+                </div>  
+            </section>
+
+            <section class="user__principal__left__activity">
+                <div class="user__principal__left__activity__flex">
+                    <header class="user__principal__left__activity__header">
+                        <h3 class="user__principal__left__activity__header-title">Destacado </h3>
+                        <ul class="user__principal__left__activity__header__list">
+                            <li class="user__principal__left__activity__header__list__item">
+                                <button class="user__principal__left__activity__header__list__item-button">
+                                    <i class="bi bi-plus-lg"></i>
+                                </button>
+                            </li>
+                            <li class="user__principal__left__activity__header__list__item">
+                                <button class="user__principal__left__activity__header__list__item-button">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </header>
+
+                    <section class="user__principal__left__activity__body">
+                        <article class="user__principal__left__activity__body__flex">
+                            <div class="user__principal__left__activity__body__title">
+                                <h4 class="user__principal__left__activity__body__title-text">Publicación</h4>
+                            </div>
+
+                            <div class="user__principal__left__activity__body__post">
+                                <a href="" class="user__principal__left__activity__body__post__link">
+                                    <picture class="user__principal__left__activity__body__post__link__image">
+                                        <img src="https://media.licdn.com/dms/image/D4E22AQG_9e05SnjDBg/feedshare-shrink_800/0/1709678932035?e=1717027200&amp;v=beta&amp;t=g2cXg3g72osBEg49RQ3g6VLqQO1ffTG4VfSSBconnSQ" loading="lazy" alt="Vista previa de la imagen" id="ember4002" class="user__principal__left__activity__body__post__link__image-principal">
+                                        <div class="user__principal__left__activity__body__post__link__reactions">
+                                            <ul class="user__principal__left__activity__body__post__link__reactions__list">
+                                                <li class="user__principal__left__activity__body__post__link__reactions__item">
+                                                    <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                                                </li>
+                                                <li class="user__principal__left__activity__body__post__link__reactions__item">
+                                                    <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-INTEREST data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/lhxmwiwoag9qepsh4nc28zus" alt="insightful" data-test-reactions-icon-type="INTEREST" data-test-reactions-icon-theme="light">
+                                                </li>
+                                                <li class="user__principal__left__activity__body__post__link__reactions__item">
+                                                    <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--2 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-EMPATHY data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22" alt="love" data-test-reactions-icon-type="EMPATHY" data-test-reactions-icon-theme="light">
+                                                </li>
+                                            </ul>
+                                            <p class="user__principal__left__activity__body__post__link__reactions-num">Tú y 2 personas mas</p>
+                                        </div>  
+                                    </picture>
+
+                                    <section class="user__principal__left__activity__body__post__link__description">
+                                        <p class="user__principal__left__activity__body__post__link__description__text">
+                                            Estoy emocionado de anunciar que nuestra página web 'www.nextvegasolutions.com' ya está en línea! 🔔 
+                                            <br><br>
+                                            Visitar: https://lnkd.in/e8tQXcRx
+                                            <br>
+                                            ...
+                                        </p>
+                                    </section>
+
+
+                                </a>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </section>
+
+            <section class="user__principal__left__publish">
+                <div class="user__principal__left__publish__flex">
+                    <header class="user__principal__left__publish__header">
+                        <div class="user__principal__left__publish__header__left">
+                            <h3 class="user__principal__left__publish__header__left-title">Actividad</h3>
+                            <a href="#" class="user__principal__left__publish__header__left-subtitle">61 seguidores</a>
+                        </div>
+
+                        <ul class="user__principal__left__publish__header__right__list">
+                            <li class="user__principal__left__publish__header__right__list-item">
+                                <button class="user__principal__left__publish__header__right__list-item-button">
+                                    <p>Crear una publicación</p>
+                                </button>
+                            </li>
+                            <li class="user__principal__left__publish__header__right__list-item">
+                                <button class="user__principal__left__publish__header__right__list-item-button">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </header>
+
+                    <nav class="user__principal__left__publish__nav">
+                        <ul class="user__principal__left__publish__nav__list">
+                            <li class="user__principal__left__publish__nav__list__item">
+                                <button class="user__principal__left__publish__nav__list__item-button">Publicaciones</button>
+                            </li>
+
+                            <li class="user__principal__left__publish__nav__list__item">
+                                <button class="user__principal__left__publish__nav__list__item-button">Comentarios</button>
+                            </li>
+
+                            <li class="user__principal__left__publish__nav__list__item">
+                                <button class="user__principal__left__publish__nav__list__item-button">Imágenes</button>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <section class="user__principal__left__publish__article">
+                        <a href="#" class="user__principal__left__publish__article__flex">
+                            <header class="user__principal__left__publish__article__header"> 
+                                <h3 class="user__principal__left__publish__article__header-title">Ricardo Martinez Vega <span> ha publicado esto • 2 meses</span></h3>
+                            </header>
+
+                            <div class="user__principal__left__publish__article__body">
+                                <div class="user__principal__left__publish__article__body__card">
+                                    <picture class="user__principal__left__publish__article__body__card__picture">
+                                        <img width="64" src="https://media.licdn.com/dms/image/D4E22AQG_9e05SnjDBg/feedshare-shrink_160/0/1709678932035?e=1717632000&amp;v=beta&amp;t=yQz1ncqnX01gBy-GElOQmGRK3vuyEcPINHvMqvTkY7k" loading="lazy" height="64" alt="" id="ember384" class="ivm-view-attr__img--centered  feed-mini-update-commentary__image evi-image lazy-image ember-view">
+                                    </picture>
+                                </div>
+
+
+                                <div class="user__principal__left__publish__article__body__card__description">
+                                    <p class="user__principal__left__publish__article__body__card__description-text">
+                                        ¡Estoy emocionado de anunciar que nuestra página web 'www.nextvegasolutions.com' ya está en línea! 🔔 
+                                        <br>
+                                        <br>
+                                        Visitar: https://lnkd.in/e8tQXcRx
+                                    </p>
+
+                                    <div class="user__principal__left__about__body__text__more">
+                                        <button class="user__principal__left__about__body__text__more-button">... mostrar más</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="user__principal__left__publish__article__body__card__content__emojis">
+                                <ul class="user__principal__left__publish__article__body__card__reactions__list">
+                                    <li class="user__principal__left__publish__article__body__card__reactions__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                                    </li>
+                                    <li class="user__principal__left__publish__article__body__card__reactions__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-INTEREST data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/lhxmwiwoag9qepsh4nc28zus" alt="insightful" data-test-reactions-icon-type="INTEREST" data-test-reactions-icon-theme="light">
+                                    </li>
+                                    <li class="user__principal__left__publish__article__body__card__reactions__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--2 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-EMPATHY data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22" alt="love" data-test-reactions-icon-type="EMPATHY" data-test-reactions-icon-theme="light">
+                                    </li>
+                                </ul>
+                                <p class="user__principal__left__activity__body__post__link__reactions-num">Tú y 2 personas mas</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="user__principal__left__publish__article__flex">
+                            <header class="user__principal__left__publish__article__header"> 
+                                <h3 class="user__principal__left__publish__article__header-title">Ricardo Martinez Vega <span> ha publicado esto • 2 meses</span></h3>
+                            </header>
+
+                            <div class="user__principal__left__publish__article__body">
+                                <div class="user__principal__left__publish__article__body__card">
+                                    <picture class="user__principal__left__publish__article__body__card__picture">
+                                        <img width="64" src="https://media.licdn.com/dms/image/D4E22AQG_9e05SnjDBg/feedshare-shrink_160/0/1709678932035?e=1717632000&amp;v=beta&amp;t=yQz1ncqnX01gBy-GElOQmGRK3vuyEcPINHvMqvTkY7k" loading="lazy" height="64" alt="" id="ember384" class="ivm-view-attr__img--centered  feed-mini-update-commentary__image evi-image lazy-image ember-view">
+                                    </picture>
+                                </div>
+
+
+                                <div class="user__principal__left__publish__article__body__card__description">
+                                    <p class="user__principal__left__publish__article__body__card__description-text">
+                                        ¡Estoy emocionado de anunciar que nuestra página web 'www.nextvegasolutions.com' ya está en línea! 🔔 
+                                        <br>
+                                        <br>
+                                        Visitar: https://lnkd.in/e8tQXcRx
+                                    </p>
+
+                                    <div class="user__principal__left__about__body__text__more">
+                                        <button class="user__principal__left__about__body__text__more-button">... mostrar más</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="user__principal__left__publish__article__body__card__content__emojis">
+                                <ul class="user__principal__left__publish__article__body__card__reactions__list">
+                                    <li class="user__principal__left__publish__article__body__card__reactions__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                                    </li>
+                                    <li class="user__principal__left__publish__article__body__card__reactions__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-INTEREST data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/lhxmwiwoag9qepsh4nc28zus" alt="insightful" data-test-reactions-icon-type="INTEREST" data-test-reactions-icon-theme="light">
+                                    </li>
+                                    <li class="user__principal__left__publish__article__body__card__reactions__item">
+                                        <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--2 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-EMPATHY data-test-reactions-icon-theme-light" src="https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22" alt="love" data-test-reactions-icon-type="EMPATHY" data-test-reactions-icon-theme="light">
+                                    </li>
+                                </ul>
+                                <p class="user__principal__left__activity__body__post__link__reactions-num">Tú y 2 personas mas</p>
+                            </div>
+                        </a>
+                    </section>
+
+                    <div class="user__principal__left__publish__view__more">
+                        <section class="user__principal__left__publish__view__more__content">
+                            <a class="user__principal__left__publish__view__more-link" href="#">
+                                Mostrar todas las publicaciones <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </section>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="user__principal__left__experience">
+                <div class="user__principal__left__experience__flex">
+                    <header class="user__principal__left__experience__header">
+                        <h3 class="user__principal__left__experience__header-title">Experiencia </h3>
+                        <ul class="user__principal__left__experience__header__list">
+                            <li class="user__principal__left__experience__header__list__item">
+                                <button class="user__principal__left__experience__header__list__item-button">
+                                    <i class="bi bi-plus-lg"></i>
+                                </button>
+                            </li>
+                            <li class="user__principal__left__experience__header__list__item">
+                                <button class="user__principal__left__experience__header__list__item-button">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </header>
+
+                    <section class="user__principal__left__experience__article">
+                        <article class="user__principal__left__experience__article__flex">
+
+                            <div class="user__principal__left__experience__article__body">
+
+                                <div class="user__principal__left__experience__article__body__card__image">
+                                    <picture class="user__principal__left__experience__article__body__card__picture">
+                                        <img width="48" src="https://media.licdn.com/dms/image/D4E0BAQGQ82xxs28hCw/company-logo_100_100/0/1702862038022/personalsoft_logo?e=1723075200&amp;v=beta&amp;t=36x35L1r7V502MlZhxVkfbFsKDThbf-0_r1LIYH96X0" loading="lazy" height="48" alt="Logotipo de PersonalSoft" id="ember152" class="ivm-view-attr__img--centered EntityPhoto-square-3   evi-image lazy-image ember-view">
+                                    </picture>
+                                </div>
+
+
+                                <div class="user__principal__left__experience__article__body__card__description">
+                                    <div class="user__principal__left__experience__article__body__card__description__flex">
+                                        <header class="user__principal__left__experience__article__body__card__description__flex__header">
+                                            <h3 class="user__principal__left__experience__article__body__card__description__flex__header-title">Software Developer</h3>
+                                            <h4 class="user__principal__left__experience__article__body__card__description__flex__header-subtitle">PersonalSoft · Jornada completa</h4>
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__header-date">sept. 2023 - actualidad · 9 meses</p>
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__header-location">San Salvador, El Salvador · Híbrido</p>
+                                        </header>
+
+                                        <section class="user__principal__left__experience__article__body__card__description__flex__body">
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__body-text">
+                                                Desarrollador Oracle especializado en PL/SQL y SQL, trabajando con bases de datos Oracle, 
+                                                incluyendo versiones 11g y 12c, así como a utilizar herramientas esenciales como Oracle Apex, 
+                                                Oracle Forms 12c, SQL Dev <button class="user__principal__left__experience__article__body__card__description__flex__body__more">... ver más</button>
+                                            </p>
+                                        </section>
+                                    </div>
+
+                                    <button class="user__principal__left__experience__article__body__card__description__skills">
+                                        <i class="bi bi-gem"></i>
+                                        Java, Oracle Database y 5 aptitudes más
+                                    </button>
+                                </div>
+                            </div>
+
+                        </article>
+
+                        <article class="user__principal__left__experience__article__flex">
+
+                            <div class="user__principal__left__experience__article__body">
+
+                                <div class="user__principal__left__experience__article__body__card__image">
+                                    <picture class="user__principal__left__experience__article__body__card__picture">
+                                        <img width="48" src="https://media.licdn.com/dms/image/C560BAQFgvoqbi7IPMQ/company-logo_100_100/0/1630643943094?e=1723075200&amp;v=beta&amp;t=yvtviCwQgWGUZawptmhQ6RgeJ2EnQa7knOFsOelCE6Y" loading="lazy" height="48" alt="Logotipo de Construmas S.A. de C.V." id="ember480" class="ivm-view-attr__img--centered EntityPhoto-square-3   evi-image lazy-image ember-view">
+                                    </picture>
+                                </div>
+
+
+                                <div class="user__principal__left__experience__article__body__card__description">
+                                    <div class="user__principal__left__experience__article__body__card__description__flex">
+                                        <header class="user__principal__left__experience__article__body__card__description__flex__header">
+                                            <h3 class="user__principal__left__experience__article__body__card__description__flex__header-title">Administrador de sistemas</h3>
+                                            <h4 class="user__principal__left__experience__article__body__card__description__flex__header-subtitle">Construmas S.A. de C.V. · Jornada completa</h4>
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__header-date">sept. 2023 - actualidad · 9 meses</p>
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__header-location">San Salvador, El Salvador · Híbrido</p>
+                                        </header>
+
+                                        <section class="user__principal__left__experience__article__body__card__description__flex__body">
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__body-text">
+                                                Desarrollador Oracle especializado en PL/SQL y SQL, trabajando con bases de datos Oracle, 
+                                                incluyendo versiones 11g y 12c, así como a utilizar herramientas esenciales como Oracle Apex, 
+                                                Oracle Forms 12c, SQL Dev <button class="user__principal__left__experience__article__body__card__description__flex__body__more">... ver más</button>
+                                            </p>
+                                        </section>
+                                    </div>
+
+                                    <button class="user__principal__left__experience__article__body__card__description__skills">
+                                        <i class="bi bi-gem"></i>
+                                        Bases de datos, React.js y 8 aptitudes más
+                                    </button>
+                                </div>
+                            </div>
+
+                        </article>
+                    </section>
+                </div>
+            </section>
+
+            <section class="user__principal__left__experience">
+                <div class="user__principal__left__experience__flex">
+                    <header class="user__principal__left__experience__header">
+                        <h3 class="user__principal__left__experience__header-title">Educación </h3>
+                        <ul class="user__principal__left__experience__header__list">
+                            <li class="user__principal__left__experience__header__list__item">
+                                <button class="user__principal__left__experience__header__list__item-button">
+                                    <i class="bi bi-plus-lg"></i>
+                                </button>
+                            </li>
+                            <li class="user__principal__left__experience__header__list__item">
+                                <button class="user__principal__left__experience__header__list__item-button">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </header>
+
+                    <section class="user__principal__left__experience__article">
+                        <article class="user__principal__left__experience__article__flex">
+
+                            <div class="user__principal__left__experience__article__body">
+
+                                <div class="user__principal__left__experience__article__body__card__image">
+                                    <picture class="user__principal__left__experience__article__body__card__picture">
+                                        <img width="48" src="{% static 'build/img/study.svg'%}" loading="lazy" height="48" alt="Logotipo de PersonalSoft" id="ember152" class="ivm-view-attr__img--centered EntityPhoto-square-3   evi-image lazy-image ember-view">
+                                    </picture>
+                                </div>
+
+
+                                <div class="user__principal__left__experience__article__body__card__description">
+                                    <div class="user__principal__left__experience__article__body__card__description__flex">
+                                        <header class="user__principal__left__experience__article__body__card__description__flex__header">
+                                            <h3 class="user__principal__left__experience__article__body__card__description__flex__header-title">Universidad Pedagógica de El Salvador</h3>
+                                            <h4 class="user__principal__left__experience__article__body__card__description__flex__header-subtitle">3 año de Ingenieria , Ingeniería de sistemas</h4>
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__header-date">ene. 2021 - abr. 2023</p>
+                                        </header>
+
+                                        <section class="user__principal__left__experience__article__body__card__description__flex__body">
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__body-text">
+                                                <button class="user__principal__left__experience__article__body__card__description__flex__body__more">... ver más</button>
+                                            </p>
+                                        </section>
+                                    </div>
+
+                                    <button class="user__principal__left__experience__article__body__card__description__skills">
+                                        <i class="bi bi-gem"></i>
+                                        Java, Oracle Database y 5 aptitudes más
+                                    </button>
+                                </div>
+                            </div>
+
+                        </article>
+
+                        <article class="user__principal__left__experience__article__flex">
+
+                            <div class="user__principal__left__experience__article__body">
+
+                                <div class="user__principal__left__experience__article__body__card__image">
+                                    <picture class="user__principal__left__experience__article__body__card__picture">
+                                        <img width="48" src="{% static 'build/img/study.svg'%}" loading="lazy" height="48" alt="Logotipo de Construmas S.A. de C.V." id="ember480" class="ivm-view-attr__img--centered EntityPhoto-square-3   evi-image lazy-image ember-view">
+                                    </picture>
+                                </div>
+
+
+                                <div class="user__principal__left__experience__article__body__card__description">
+                                    <div class="user__principal__left__experience__article__body__card__description__flex">
+                                        <header class="user__principal__left__experience__article__body__card__description__flex__header">
+                                            <h3 class="user__principal__left__experience__article__body__card__description__flex__header-title">Udemy Academy</h3>
+                                            <h4 class="user__principal__left__experience__article__body__card__description__flex__header-subtitle">React - The Complete Guide: Hooks, Context, Redux, MERN, Programación informática</h4>
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__header-date">mar. 2023 - dec. 2023</p>
+                                        </header>
+
+                                        <section class="user__principal__left__experience__article__body__card__description__flex__body">
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__body-text">
+                                                Programador / Desarrollador Web <button class="user__principal__left__experience__article__body__card__description__flex__body__more">... ver más</button>
+                                            </p>
+                                        </section>
+                                    </div>
+
+                                    <button class="user__principal__left__experience__article__body__card__description__skills">
+                                        <i class="bi bi-gem"></i>
+                                        Bases de datos, React.js y 8 aptitudes más
+                                    </button>
+                                </div>
+                            </div>
+
+                        </article>
+                    </section>
+
+                    <div class="user__principal__left__experience__view__more">
+                        <section class="user__principal__left__experience__view__more__content">
+                            <a class="user__principal__left__experience__view__more-link" href="#">
+                                Mostrar todas las publicaciones <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </section>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="user__principal__left__experience">
+                <div class="user__principal__left__experience__flex">
+                    <header class="user__principal__left__experience__header">
+                        <h3 class="user__principal__left__experience__header-title">Recomendaciones</h3>
+                        <ul class="user__principal__left__experience__header__list">
+                            <li class="user__principal__left__experience__header__list__item">
+                                <button class="user__principal__left__experience__header__list__item-button">
+                                    <i class="bi bi-plus-lg"></i>
+                                </button>
+                            </li>
+                            <li class="user__principal__left__experience__header__list__item">
+                                <button class="user__principal__left__experience__header__list__item-button">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </header>
+
+                    <nav class="user__principal__left__experience__submain">
+                        <ul class="user__principal__left__experience__submain__list">
+                            <li class="user__principal__left__experience__submain__list__item">
+                                <button class="user__principal__left__experience__submain__list__item-button user__principal__left__experience__submain__list__item-button-active">Recibidas</button>
+                            </li>
+                            <li class="user__principal__left__experience__submain__list__item">
+                                <button class="user__principal__left__experience__submain__list__item-button">Enviadas</button>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <section class="user__principal__left__experience__article">
+                        <article class="user__principal__left__experience__article__flex">
+
+                            <div class="user__principal__left__experience__article__body">
+
+                                <div class="user__principal__left__experience__article__body__card__image">
+                                    <picture class="user__principal__left__experience__article__body__card__picture user__principal__left__experience__article__body__card__picture__people">
+                                        <img width="48" src="https://media.licdn.com/dms/image/D4E03AQHLNUMUCpc0lA/profile-displayphoto-shrink_100_100/0/1696969927647?e=1720656000&amp;v=beta&amp;t=kyF5B_AGEAdQMrPMEaCwePOC02STK6VI1QzpYBqGbzI" loading="lazy" height="48" alt="Foto de perfil de Marisela Mejia Lobo" id="ember4343" class="ivm-view-attr__img--centered EntityPhoto-circle-3   evi-image lazy-image ember-view">
+                                    </picture>
+                                </div>
+
+
+                                <div class="user__principal__left__experience__article__body__card__description">
+                                    <div class="user__principal__left__experience__article__body__card__description__flex">
+                                        <header class="user__principal__left__experience__article__body__card__description__flex__header">
+                                            <h3 class="user__principal__left__experience__article__body__card__description__flex__header-title">
+                                                <a href="#" class="user__principal__left__experience__article__body__card__description__flex__header-title-link">Marisela Mejia Lobo</a> 
+                                                <span class="user__principal__left__experience__article__body__card__description__flex__header-title-year">· 1er</span>
+                                            </h3>
+                                            <h4 class="user__principal__left__experience__article__body__card__description__flex__header-subtitle">Egresada de Universidad de El Salvador</h4>
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__header-date">30 de agosto de 2023, Marisela trabajaba con Ricardo, pero en distintos equipos</p>
+                                        </header>
+
+                                        <section class="user__principal__left__experience__article__body__card__description__flex__body user__principal__left__experience__article__body__card__description__flex__body-nomargin">
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__body-text">
+                                                Ricardo Martinez, lo describo como una persona super Responsable, dedicado en su trabajo, siempre dispuesto a ayudar a su grupo de trabajo.
+                                                Tengo un poco más de un año de conocerlo, y demuestra ser una persona leal, honesta, y trabajadora, enfocado siempre en sus objetivos, y esmerarse por cumplirlo.
+                                                <button class="user__principal__left__experience__article__body__card__description__flex__body__more">... ver más</button>
+                                            </p>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </article>
+                    </section>
+
+
+                </div>
+            </section>
+
+            <section class="user__principal__left__experience">
+                <div class="user__principal__left__experience__flex">
+                    <header class="user__principal__left__experience__header">
+                        <h3 class="user__principal__left__experience__header-title">Intereses</h3>
+                        <ul class="user__principal__left__experience__header__list">
+                            <li class="user__principal__left__experience__header__list__item">
+                                <button class="user__principal__left__experience__header__list__item-button">
+                                    <i class="bi bi-plus-lg"></i>
+                                </button>
+                            </li>
+                            <li class="user__principal__left__experience__header__list__item">
+                                <button class="user__principal__left__experience__header__list__item-button">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </header>
+
+                    <nav class="user__principal__left__experience__submain">
+                        <ul class="user__principal__left__experience__submain__list">
+                            <li class="user__principal__left__experience__submain__list__item">
+                                <button class="user__principal__left__experience__submain__list__item-button user__principal__left__experience__submain__list__item-button-active">Top Voices</button>
+                            </li>
+                            <li class="user__principal__left__experience__submain__list__item">
+                                <button class="user__principal__left__experience__submain__list__item-button">Empresas</button>
+                            </li>
+                            <li class="user__principal__left__experience__submain__list__item">
+                                <button class="user__principal__left__experience__submain__list__item-button">Newsletters</button>
+                            </li>
+                            <li class="user__principal__left__experience__submain__list__item">
+                                <button class="user__principal__left__experience__submain__list__item-button">Instituciones educativas</button>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <section class="user__principal__left__experience__article">
+                        <article class="user__principal__left__experience__article__flex">
+
+                            <div class="user__principal__left__experience__article__body">
+
+                                <div class="user__principal__left__experience__article__body__card__image">
+                                    <picture class="user__principal__left__experience__article__body__card__picture user__principal__left__experience__article__body__card__picture__people">
+                                        <img width="48" src="https://media.licdn.com/dms/image/C4E03AQFsnSHpEQprcQ/profile-displayphoto-shrink_100_100/0/1555254699583?e=1720656000&amp;v=beta&amp;t=9KhGawRdKXNL-gZiV8dZ2l8oYxmg8XZEZZVG-YEK1X8" loading="lazy" height="48" alt="Foto de perfil de Miguel Ángel Durán García" id="ember109" class="ivm-view-attr__img--centered EntityPhoto-circle-3   evi-image lazy-image ember-view">
+                                    </picture>
+                                </div>
+
+
+                                <div class="user__principal__left__experience__article__body__card__description">
+                                    <div class="user__principal__left__experience__article__body__card__description__flex">
+                                        <header class="user__principal__left__experience__article__body__card__description__flex__header">
+                                            <h3 class="user__principal__left__experience__article__body__card__description__flex__header-title">
+                                                <a href="#" class="user__principal__left__experience__article__body__card__description__flex__header-title-link">Miguel Ángel Durán García</a> 
+                                                <span class="user__principal__left__experience__article__body__card__description__flex__header-title-year">· 2er</span>
+                                            </h3>
+                                            <h4 class="user__principal__left__experience__article__body__card__description__flex__header-subtitle">Programación JavaScript y Desarrollo Web. Reconocido Google Developer Expert, Microsoft MVP y GitHub Star. ⭐</h4>
+                                            <p class="user__principal__left__experience__article__body__card__description__flex__header-date">269.801 seguidores</p>
+                                        </header>
+
+                                        <section class="user__principal__left__experience__article__body__card__description__flex__body user__principal__left__experience__article__body__card__description__flex__body-nomargin">
+                                            <button class="user__principal__left__experience__article__body__card__description__flex__body-follow"><i class="bi bi-check2"></i> Siguiendo</button>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </article>
+                    </section>
+
+
+                </div>
+            </section>
+        </div>
+
+        <aside class="user__principal__right">
+            <section class="user__principal__right__general__information">
+                <article class="user__principal__right__general__information__grid">
+                    <div class="user__principal__right__general__information__left">
+                        <h4 class="user__principal__right__general__information__left-title">Idioma del perfil</h4>
+                        <p class="user__principal__right__general__information__left-subtitle">Español</p>
+                    </div>
+
+                    <div class="user__principal__right__general__information__right">
+                        <i class="bi bi-pencil-fill"></i>
+                    </div>
+                </article>
+
+                <article class="user__principal__right__general__information__grid">
+                    <div class="user__principal__right__general__information__left">
+                        <h4 class="user__principal__right__general__information__left-title">URL y perfil público</h4>
+                        <p class="user__principal__right__general__information__left-subtitle">www.linkedin.com/in/ricardo-martinez-vega-b3b15622a</p>
+                    </div>
+
+                    <div class="user__principal__right__general__information__right">
+                        <i class="bi bi-pencil-fill"></i>
+                    </div>
+                </article>
+            </section>
+
+            <section class="user__principal__right__general__newsletter">
+                <picture class="user__principal__right__general__newsletter-picture">
+                    <img src="{% static 'build/img/anuncio.webp'%}" alt="newsletter">
+                </picture>
+            </section>
+
+            <div class="feed__section__right__feed feed__section__right__feed_user">
+                <section class="feed__section__right__feed__header">
+                    <div class="feed__section__right__feed__header__title">
+                        <h3 class="feed__section__right__feed__header__title-text">Perfiles similares</h3>
+                    </div>
+
+                    <div class="feed__section__right__feed__header__info">
+                        <button class="feed__section__right__feed__header__info-button">
+                            <i class="bi bi-info-square-fill"></i>
+                        </button>
+                    </div>
+                </section>
+
+                <section class="feed__section__right__feed__body">
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/C4E03AQEyGarOrZ5-Ng/profile-displayphoto-shrink_100_100/0/1584340101402?e=1719446400&amp;v=beta&amp;t=APg9LDqyLG-xen0ZACyrBv8MMQU8E3XLCOegNuVQJlw" loading="lazy" height="48" alt="Jessica Barrantes" id="ember144" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Jessica Barrantes</p>
+                            <p class="feed__section__right__feed__body__link__description-text">Regional Human Resources Director | Change Management | Organizational</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/D4E03AQEkvx0nq2qrJA/profile-displayphoto-shrink_100_100/0/1668219561393?e=1719446400&amp;v=beta&amp;t=DOyaUvLYKRamUvUWQjAKbTmtJFtX2gxkKXpboUmzZrA" loading="lazy" height="48" alt="Angélica P." id="ember150" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Angélica P.</p>
+                            <p class="feed__section__right__feed__body__link__description-text">HRBP | Coordinador de Talento Humano | Líder de Talento Humano |Adquisición</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/D4E03AQF_YkpjXs498A/profile-displayphoto-shrink_100_100/0/1711022864058?e=1719446400&amp;v=beta&amp;t=j0lcYweb1CQ3c6GiP06EV6lYw8uaNxF9L7bsxpKMYQk" loading="lazy" height="48" alt="Brais Moure" id="ember156" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Brais Moure</p>
+                            <p class="feed__section__right__feed__body__link__description-text">Freelance full-stack Dev | iOS & Android Engineer | Divulgador sobre</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+                </section>
+
+                <section class="feed__section__right__feed__more">
+                    <a href="#" class="feed__section__right__feed__more-link">
+                        Ver perfiles <i class="bi bi-chevron-right"></i>
+                    </a>
+                </section>
+
+            </div>
+
+            <div class="feed__section__right__feed feed__section__right__feed_user">
+                <section class="feed__section__right__feed__header">
+                    <div class="feed__section__right__feed__header__title">
+                        <h3 class="feed__section__right__feed__header__title-text">Personas que podrías conocer</h3>
+                        <p class="feed__section__right__feed__header__title-subtitle">A partir de tu sector</p>
+                    </div>
+
+                    <div class="feed__section__right__feed__header__info">
+                        <button class="feed__section__right__feed__header__info-button">
+                            <i class="bi bi-info-square-fill"></i>
+                        </button>
+                    </div>
+                </section>
+
+                <section class="feed__section__right__feed__body">
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/C4E03AQEyGarOrZ5-Ng/profile-displayphoto-shrink_100_100/0/1584340101402?e=1719446400&amp;v=beta&amp;t=APg9LDqyLG-xen0ZACyrBv8MMQU8E3XLCOegNuVQJlw" loading="lazy" height="48" alt="Jessica Barrantes" id="ember144" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Jessica Barrantes</p>
+                            <p class="feed__section__right__feed__body__link__description-text">Regional Human Resources Director | Change Management | Organizational</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/D4E03AQEkvx0nq2qrJA/profile-displayphoto-shrink_100_100/0/1668219561393?e=1719446400&amp;v=beta&amp;t=DOyaUvLYKRamUvUWQjAKbTmtJFtX2gxkKXpboUmzZrA" loading="lazy" height="48" alt="Angélica P." id="ember150" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Angélica P.</p>
+                            <p class="feed__section__right__feed__body__link__description-text">HRBP | Coordinador de Talento Humano | Líder de Talento Humano |Adquisición</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+
+                    <a href="#" class="feed__section__right__feed__body__link">
+                        <picture class="feed__section__right__feed__body__link__image">
+                            <img width="48" src="https://media.licdn.com/dms/image/D4E03AQF_YkpjXs498A/profile-displayphoto-shrink_100_100/0/1711022864058?e=1719446400&amp;v=beta&amp;t=j0lcYweb1CQ3c6GiP06EV6lYw8uaNxF9L7bsxpKMYQk" loading="lazy" height="48" alt="Brais Moure" id="ember156" class="evi-image lazy-image ember-view EntityPhoto-circle-3">
+                        </picture>
+
+                        <div href="#" class="feed__section__right__feed__body__link__description">
+                            <p class="feed__section__right__feed__body__link__description-title">Brais Moure</p>
+                            <p class="feed__section__right__feed__body__link__description-text">Freelance full-stack Dev | iOS & Android Engineer | Divulgador sobre</p>
+                            <button class="feed__section__right__feed__body__link__description-button">
+                                <i class="bi bi-plus-lg"></i> Seguir
+                            </button>
+                        </div>
+                    </a>
+                </section>
+
+                <section class="feed__section__right__feed__more">
+                    <a href="#" class="feed__section__right__feed__more-link">
+                        Ver perfiles <i class="bi bi-chevron-right"></i>
+                    </a>
+                </section>
+
+            </div>
+
+            <section class="user__principal__right__general__newsletter">
+                <picture class="user__principal__right__general__newsletter-picture">
+                    <img src="{% static 'build/img/publish3.webp'%}" alt="newsletter">
+                </picture>
+            </section>
+        </aside>
+    </article>
+{% endblock %}
