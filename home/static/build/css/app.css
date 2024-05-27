@@ -733,33 +733,12 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   cursor: pointer;
 }
 
-.header__top__login {
-  background-color: #3d3d3d;
-}
-.header__top__login .header__top__login__content {
-  padding: 0.3rem 0rem;
-  padding-bottom: 0.5rem;
-}
-.header__top__login .header__top__login__content .header__top__login__content__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: center;
-}
-.header__top__login .header__top__login__content .header__top__login__content__list .header__top__login__content__list__item .header__top__login__content__list__item-link {
-  color: #FFFFFF;
-  font-weight: 400;
-  font-size: 1.3rem;
-  margin: 0;
-  letter-spacing: -0.5px;
-}
-.header__top__login .header__top__login__content .header__top__login__content__list .header__top__login__content__list__item .header__top__login__content__list__item-link:hover {
-  text-decoration: underline;
-}
-
 .header__principal__login {
-  position: relative;
+  position: fixed;
+  z-index: 100000;
   border: none;
+  min-height: 5.9rem;
+  max-height: 5.9rem;
 }
 .header__principal__login .header__principal__grid__login {
   margin: 0;
@@ -786,7 +765,7 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   top: 12px;
   height: 3.5rem;
   left: 86.3rem;
-  border-left: 1px solid #dfdfdf;
+  border-left: 1px solid #efefef;
 }
 .header__principal__login .header__principal__grid__login .header__principal__grid__right .header__principal__right__nav__business .header__principal__right__nav__item__principal {
   max-width: none;
@@ -3467,6 +3446,11 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   background-color: #efefef;
 }
 
+.login__principal {
+  background-color: #FFFFFF;
+  padding-top: 6.5rem;
+}
+
 .login__principal__grid {
   position: relative;
   z-index: 10000;
@@ -3494,10 +3478,9 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   flex-direction: column;
   text-align: left;
   justify-content: center;
-  max-height: 48.5rem;
-  min-height: 48.5rem;
+  max-height: 52rem;
+  min-height: 52rem;
   position: relative;
-  margin-top: 0.5rem;
 }
 .login__principal__grid .login__principal__grid__description::after {
   content: "";
@@ -3521,11 +3504,11 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
 }
 .login__principal__grid .login__principal__grid__description .login__principal__grid__description__welcome .login__principal__grid__description__welcome__header .login__principal__grid__description__welcome__header-title {
   color: #3d3d3d;
-  font-weight: 500;
   line-height: 1.3;
   letter-spacing: -0.8px;
   font-size: 5rem;
-  font-weight: 500;
+  font-weight: 300;
+  padding-right: 2rem;
 }
 .login__principal__grid .login__principal__grid__description .login__principal__grid__description__welcome .login__principal__grid__description__welcome__body {
   margin-bottom: 4.5rem;
@@ -3575,36 +3558,215 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   text-align: center;
 }
 
-.login__principal__grid__skills {
-  background-color: #f7f7f7;
-  max-height: 27rem;
-  min-height: 27rem;
-  position: relative;
-  overflow: hidden;
+.login__courses {
+  padding: 3rem 0;
+  padding-bottom: 0;
 }
-.login__principal__grid__skills .login__principal__grid__skills__content {
-  padding: 0rem 8rem;
-  padding-right: 10rem;
+.login__courses .login__courses__grid {
+  display: flex;
+  flex-direction: column;
 }
-.login__principal__grid__skills .login__principal__grid__skills__content .login__principal__grid__skills__content__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+.login__courses .login__courses__grid .login__courses__grid__nav-background {
+  border-bottom: 1px solid #efefef;
 }
-.login__principal__grid__skills .login__principal__grid__skills__content .login__principal__grid__skills__content__grid .login__principal__grid__skills__content__grid__image .login__principal__grid__skills__content__grid-img img {
-  display: block;
-  max-width: 30rem;
-  min-width: 30rem;
+.login__courses .login__courses__grid .login__courses__grid__nav-background .login__courses__grid__nav {
+  display: flex;
+  flex-direction: column;
 }
-.login__principal__grid__skills .login__principal__grid__skills__content .login__principal__grid__skills__content__grid .login__principal__grid__skills__content__grid__title {
-  margin-top: 3rem;
+.login__courses .login__courses__grid .login__courses__grid__nav-background .login__courses__grid__nav .login__courses__grid__nav__title {
+  margin-bottom: 1rem;
 }
-.login__principal__grid__skills .login__principal__grid__skills__content .login__principal__grid__skills__content__grid .login__principal__grid__skills__content__grid__title .login__principal__grid__skills__content__grid__title-text {
-  font-weight: 200;
-  font-size: 3rem;
+.login__courses .login__courses__grid .login__courses__grid__nav-background .login__courses__grid__nav .login__courses__grid__nav__title .login__courses__grid__nav__title-text {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.login__courses .login__courses__grid .login__courses__grid__nav-background .login__courses__grid__nav .login__courses__grid__nav__title .login__courses__grid__nav__title-text-more {
+  font-size: 1.4rem;
   color: #6d6d6d;
 }
-.login__principal__grid__skills .login__principal__grid__skills__content .login__principal__grid__skills__content__grid .login__principal__grid__skills__content__grid__title .login__principal__grid__skills__content__grid__title-text span {
+.login__courses .login__courses__grid .login__courses__grid__nav-background .login__courses__grid__nav .login__courses__grid__nav__list {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 3rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__nav-background .login__courses__grid__nav .login__courses__grid__nav__list .login__courses__grid__nav__list__item .login__courses__grid__nav__list__item-button {
+  margin-top: -0.5rem;
+  background-color: transparent;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-bottom: 4px solid #f7f7f7;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login__courses .login__courses__grid .login__courses__grid__nav-background .login__courses__grid__nav .login__courses__grid__nav__list .login__courses__grid__nav__list__item .login__courses__grid__nav__list__item-button:hover {
+  background-color: #e5e5e5;
+  border-bottom: 4px solid #e5e5e5;
+}
+.login__courses .login__courses__grid .login__courses__grid__nav-background .login__courses__grid__nav .login__courses__grid__nav__list .login__courses__grid__nav__list__item .login__courses__grid__nav__list__item-button .bi {
+  margin-right: 1rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__nav-background .login__courses__grid__nav .login__courses__grid__nav__list .login__courses__grid__nav__list__item .login__courses__grid__nav__list__item-button-active {
+  border-bottom: 4px solid #0D1117;
+}
+.login__courses .login__courses__grid .login__courses__grid__nav-background .login__courses__grid__nav .login__courses__grid__nav__list .login__courses__grid__nav__list__item .login__courses__grid__nav__list__item-button-active:hover {
+  border-bottom: 4px solid #0D1117;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background {
+  background-color: #FFFFFF;
+  padding: 3.5rem 0;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__title {
+  margin-bottom: 1rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__title .login__courses__grid__course__title-text {
+  font-size: 1.6rem;
+  text-transform: uppercase;
   font-weight: 600;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__articles {
+  overflow: hidden;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__articles .login__courses__grid__course__articles__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__articles .login__courses__grid__course__articles__list .login__courses__grid__course__articles__list__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 23rem;
+  min-width: 23rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__articles .login__courses__grid__course__articles__list .login__courses__grid__course__articles__list__item:hover .login__courses__grid__course__articles__list__item__description-title {
+  text-decoration: underline;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__articles .login__courses__grid__course__articles__list .login__courses__grid__course__articles__list__item .login__courses__grid__course__articles__list__item-img {
+  border-radius: 0.3rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__articles .login__courses__grid__course__articles__list .login__courses__grid__course__articles__list__item .login__courses__grid__course__articles__list__item-img img {
+  max-height: 13.5rem;
+  min-height: 13.5rem;
+  border-radius: 0.3rem;
+  object-fit: cover;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__articles .login__courses__grid__course__articles__list .login__courses__grid__course__articles__list__item .login__courses__grid__course__articles__list__item__description {
+  display: flex;
+  flex-direction: column;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__articles .login__courses__grid__course__articles__list .login__courses__grid__course__articles__list__item .login__courses__grid__course__articles__list__item__description .login__courses__grid__course__articles__list__item__description-subtitle {
+  margin: 0;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  color: #6d6d6d;
+  letter-spacing: -0.5px;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__articles .login__courses__grid__course__articles__list .login__courses__grid__course__articles__list__item .login__courses__grid__course__articles__list__item__description .login__courses__grid__course__articles__list__item__description-title {
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 1.25;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__course .login__courses__grid__course__articles .login__courses__grid__course__articles__list .login__courses__grid__course__articles__list__item .login__courses__grid__course__articles__list__item__description .login__courses__grid__course__articles__list__item__description-views {
+  margin: 0;
+  margin-top: 0.5rem;
+  font-size: 1.7rem;
   color: #3d3d3d;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  align-items: start;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics .login__courses__grid__topics__header {
+  width: 35rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics .login__courses__grid__topics__header .login__courses__grid__topics__header-title {
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics .login__courses__grid__topics__header .login__courses__grid__topics__header-subtitle span {
+  font-weight: 600;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics .login__courses__grid__topics__body .login__courses__grid__topics__body__title {
+  margin-top: 1rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics .login__courses__grid__topics__body .login__courses__grid__topics__body__title .login__courses__grid__topics__body__title-text {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics .login__courses__grid__topics__body .login__courses__grid__topics__body__links {
+  margin-top: 2rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics .login__courses__grid__topics__body .login__courses__grid__topics__body__links .login__courses__grid__topics__body__links__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics .login__courses__grid__topics__body .login__courses__grid__topics__body__links .login__courses__grid__topics__body__links__list .login__courses__grid__topics__body__links__list__item {
+  margin-bottom: 1rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics .login__courses__grid__topics__body .login__courses__grid__topics__body__links .login__courses__grid__topics__body__links__list .login__courses__grid__topics__body__links__list__item .login__courses__grid__topics__body__links__list__item-link {
+  border: 1px solid #AAAAAA;
+  padding: 1rem 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+}
+.login__courses .login__courses__grid .login__courses__grid__course-background .login__courses__grid__topics .login__courses__grid__topics__body .login__courses__grid__topics__body__links .login__courses__grid__topics__body__links__list .login__courses__grid__topics__body__links__list__item .login__courses__grid__topics__body__links__list__item-link:hover {
+  background-color: #e5e5e5;
+  text-decoration: underline;
+}
+
+.login__people {
+  position: relative;
+  max-height: 30rem;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login__people::after {
+  content: "";
+  display: block;
+  top: 0;
+  width: 100%;
+  right: 0;
+  z-index: -1;
+  background-image: url("https://static.licdn.com/aero-v1/sc/h/358nrauba2s4q0j5ndju3egmp");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #6d6d6d;
+  background-blend-mode: luminosity;
+  max-height: 30rem;
+  min-height: 30rem;
+  position: absolute;
+  filter: brightness(0.3);
+}
+.login__people .login__people__grid {
+  display: flex;
+  flex-direction: column;
+}
+.login__people .login__people__grid .login__people__grid__header .login__people__grid__header-title {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+.login__people .login__people__grid .login__people__grid__header .login__people__grid__header-more {
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+}
+.login__people .login__people__grid .login__people__grid__header .login__people__grid__header-link {
+  padding: 1rem 8rem;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  border-radius: 0.3rem;
 }
